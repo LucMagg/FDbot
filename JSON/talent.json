@@ -1,0 +1,1612 @@
+[
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Alliance of Darkness",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Alliance of Earth",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Alliance of Fire",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Alliance of Light",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Alliance of Sea",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Arcane Shield",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Arcane Vibrations",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Armor of Blood",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Armor of Earth",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Armor of Fire",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Armor of Moon",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Armor of Sea",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Armor of Sun",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Attack Bonus",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Aura of Cold",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Aura of Fire",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Backstab",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Bad Medecine",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Ballistic",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Ballistic Stance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Bardic Song",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Barrier",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Berserk",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Blade Block",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Bleed Resistance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Blitz",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Bloodlust",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Blood Star",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Booming Sermon",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Breath of Warmth",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Brutal Attack",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Brutal Backstab",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Burning Focus",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Calm Blitz",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Cardinal Aim",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Cardinal Heal",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Cardinal Parry",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Channelling Stance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Chord of Blitz",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Chord of Diagonal Aim",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Chord of Point Blank",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Chromatic Shield",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Chromatic Song",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Cloak of Shadows",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Cold Resistance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Cold Snap",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Combat Preparation",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Corrosive Breath",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Critical Attack",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Critical Attack : Ignite",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Critical Heal",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Critical Parry",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Critical Volley",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Crushing Blow",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Cunning Maneuver",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Cure Bleeding",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Cure Poison",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Curse Resistance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Cutlass & Flintlock",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Dazzling",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Dead Eye",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Deadly Syphon",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Defense Bonus",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Demoralizing Strike",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Diagonal Aim",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Diagonal Heal",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Diagonal Parry",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Diagonal Stance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Disorienting Strike",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Dodge",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Dwarven Acrobatics",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Elemental Stance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Exploiting Stance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Exploit Weakness",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Extra Time",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Fan of Blades",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Fiery Block",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Fiery Breath",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Finishing Blow",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Fire Resistance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Fire Walker",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Flank",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Fleet-Footed",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Flowing Maneuver",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Flurry of Blows",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Focus",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Foresight",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Fortify",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Furious Maneuver",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Grappling Hook",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Grounded Heal",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Hamstring",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Healing Aura",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Healing Focus",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Healing Ray",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Healing Stance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Healing Touch",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "High Ground",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Holy Stance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Ice Block",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Immobilizing Strike",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Immovable",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Immune to Dazzled",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Immune to Demoralization",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Immune to Disorientation",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Immune to Silence",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Immune to Stun",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Immune to Withering",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Impunity",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Inner Peace",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Inner Sanctuary",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Ironskin",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Javelin of Slaying",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Life-Draining Backstab",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Lifebloom",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Life Drain",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Life Drain Immunity",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Life Steal",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Lingering Heal",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Local Stasis",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Lunar Block",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Magic Parry",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Majesty",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Mana Capacity",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Mana Charge",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Mana Current",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Mana Efficiency",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Mana Release",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Mana Reserves",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Mana Reset",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Meditate",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Meditating Stance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Melee Parry",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Melee Stance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Mighty Blow",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Mind-Blending Hurl",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Miraculous Mending",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Mobile Stance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Moment of Clarity",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Natural Harmony",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Pacifist",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Pact Against Beasts",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Pact Against Constructs",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Pact Against Elementals",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Pact Against Insects",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Pact Against Sylvans",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Pact Against Undead",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Pact of Earth",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Pact of Fire",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Pact of Heroism",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Pact of Moon",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Pact of Sea",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Pact of Sun",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Parry Stance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Photon Blast",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Pistoleer",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Point Blank",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Poison Resistance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Power Chord",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Prepare",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Prepared Freeze",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Prepared Ignite",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Prepared Rupture",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Protector",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Psychic Blows",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Purge Acid",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Push",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Quick Hurl",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Radiant Block",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Raider",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Ranged Parry",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Rapid Sniper",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Refresh",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Regal Stance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Regrowth",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Rend",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Resilient",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Resolve",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Resurgence",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Revitalize",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Rune of Earth",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Rune of Fire",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Rune of Moon",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Rune of Sea",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Rune of Sun",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Second Sight",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Second Wind",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Silencing Strike",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Skirmisher",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Slay Beast",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Slay Celestial",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Slay Construct",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Slay Demon",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Slay Dragon",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Slay Elemental",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Slay Insect",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Slay Lizard",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Slay Monstrosity",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Slay Sylvan",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Slay Undead",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Smite Evil",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Sniper",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Sniper Stance",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Song of Acid",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Song of Blood",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Soul Blade",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Split Second",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Steady Heal",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Steady Maneuver",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Stunning Strike",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Survivor",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Swashbuckler",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Syphon Life",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Taunt",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Testudo",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Triage",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "True Shot",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Tumble",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Uncurse",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Unstoppable Force",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Valiant Maneuver",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Vampirism",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Venom",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Water Walker",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Watery Grave",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Weakening Backstab",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Whirlwind",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Wild Block",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "Wings of Moon",
+        "position": ""
+    },
+    {
+        "bonus_count": 0,
+        "bonus_type": "",
+        "description": "",
+        "name": "X",
+        "position": ""
+    }
+]

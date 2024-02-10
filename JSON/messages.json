@@ -1,0 +1,81 @@
+{
+    "bankiki": {
+        "color": "default",
+        "description": "Tu es d\u00e9sormais interdit de commentaire, et toc :joy::joy::joy:",
+        "title": "Kiki interdit :grinning:"
+    },
+    "class": {
+        "color": "default",
+        "title": "Liste des "
+    },
+    "dhjk": {
+        "0": {
+            "gif": "https://media1.tenor.com/m/Vq3qMfYjhS4AAAAC/waynes-world.gif",
+            "text": "# Priez DHJK !!! #\nOn m\u00e9rite pas !\nOn m\u00e9rite pas !\nOn est tout p'tit !\nOn est \u00e0 chier !"
+        },
+        "1": {
+            "gif": "https://media1.tenor.com/m/1y-Ew1y_ZLsAAAAC/moses-mitsotakis.gif",
+            "text": "# Priez DHJK !!! #\nFracasse est le le lieu qui a donn\u00e9 naissance au dhjkisme. Zeyuka est le messager qui a permis l'exportation internationale de ce courant philosophique qui explique que DHJK est tout, et que sans lui, l'univers n'est rien.\n*Zeyuki[FR]acasse, proph\u00e8te officiel*"
+        },
+        "2": {
+            "gif": "https://media1.tenor.com/m/84rqaYkWVVQAAAAC/the-office-michael-scott.gif",
+            "text": "# Priez DHJK !!! #\nUn jour Quand j'\u00e9tais jeune chef de guilde j'ai du r\u00e9soudre un conflit dans la guilde.\nJ'ai donc tranch\u00e9 pour clore le conflit. Face aux protestations du moment o\u00f9 ca parlait de faire des r\u00e8gles ou une charte ou ce genre de chose, j'ai poliment rappel\u00e9 que : \"Pas besoin de r\u00e8gles puisque ici le chef c'est moi!\".\nA partir de l\u00e0 ben zeyuka a mouill\u00e9 son pantalon et tu connais les cons\u00e9quences.\n(Non pas que \u00e7a me d\u00e9plaise.)\nEt depuis la paix r\u00e8gne sur [FR]acasse!\n*dhjk en personne*"
+        },
+        "3": {
+            "gif": "https://media1.tenor.com/m/xEcQqDV9bY4AAAAC/estupefacto.gif",
+            "text": "# Priez DHJK !!! #\nNom de moi!\n*dhjk en personne*"
+        },
+        "4": {
+            "gif": "https://media1.tenor.com/m/dB3E-yGFzZkAAAAC/bucher-kaamelot.gif",
+            "text": "# Priez DHJK !!! #\nOn a affaire \u00e0 quelque chose de singulier le DHJKisme, une philosphie v\u00e9hicul\u00e9e par son plus grand adepte, un psychopate nomm\u00e9 Zeyuki[FR]acasse Je ne sais pas ce que dhjk lui a fait mais son cerveau est tellement bien lav\u00e9 que \u00e7a brille !\n*Pandaa, m\u00e9cr\u00e9ant du dhjkisme*"
+        }
+    },
+    "error": {
+        "color": "red",
+        "title": "Erreur"
+    },
+    "footer": "*g\u00e9n\u00e9r\u00e9 par F&D-discord-bot en ",
+    "help": {
+        "color": "default",
+        "description": {
+            "addcomment": "Cette commande permet d'ajouter un commentaire sur le h\u00e9ros ou le pet pass\u00e9 en param\u00e8tre.\nIl est possible de laisser jusqu'\u00e0 3 commentaires diff\u00e9rents par h\u00e9ros/pet.\nCependant, si vous avez d\u00e9j\u00e0 laiss\u00e9 un commentaire sur le h\u00e9ros/pet en question, il sera simplement mis \u00e0 jour et non ajout\u00e9 en tant que commentaire suppl\u00e9mentaire.\nSi le h\u00e9ros/pet en question a d\u00e9j\u00e0 3 commentaires et que vous n'en aviez jamais laiss\u00e9 un, alors c'est le plus ancien commentaire qui sera remplac\u00e9 par le v\u00f4tre :wink:\nExemple de commande valide : /addcomment Adana blablabla blablabla.",
+            "class": "Cette commande permet de lister les diff\u00e9rents h\u00e9ros de la classe pass\u00e9e en param\u00e8tre.\nExemple de commande valide : /class Rogue\n\nLes diff\u00e9rentes classes recens\u00e9es sont :\n",
+            "error": "\n\nSi vous constatez qu'une erreur s'est gliss\u00e9e dans le retour du bot, n'h\u00e9sitez pas \u00e0 mettre \u00e0 jour la source depuis le Fandom Wiki (/update help pour + d'infos :wink:)",
+            "generic": "Voici les diff\u00e9rentes commandes disponibles pour le bot :\n\n- /addcomment [NomDuH\u00e9ros][Commentaire] : permet d'ajouter un commentaire sur le h\u00e9ros en question\n- /class [NomDeLaClasse] : affiche les h\u00e9ros de la classe pass\u00e9e en param\u00e8tre\n- /bothelp : affiche ce bloc d'aide \n- /hero [NomDuH\u00e9ros] : affiche les informations du h\u00e9ros pass\u00e9 en param\u00e8tre\n- /item [NomDeL'item] : affiche les h\u00e9ros pouvant \u00e9quiper l'item pass\u00e9 en param\u00e8tre\n- /pet [NomDuPet] : affiche les informations du pet pass\u00e9 en param\u00e8tre\n- /petlist [NomDuH\u00e9ros] : affiche les pets pouvant \u00eatre \u00e9quip\u00e9s avec le h\u00e9ros pass\u00e9 en param\u00e8tre\n- /talent [NomDuTalent] : affiche la liste des h\u00e9ros poss\u00e9dant le talent pass\u00e9 en param\u00e8tre\n- /update : met \u00e0 jour le bot\n\n\u00c0 noter que chacunes des commandes ci-dessus ont un param\u00e8tre \"help\" pour plus d'info, et qu'elles ne sont (pour l'instant) disponibles qu'en anglais :wink:",
+            "hero": "Cette commande renvoie les caract\u00e9ristiques suivantes du h\u00e9ros pass\u00e9 en param\u00e8tre :\n- La classe, l'esp\u00e8ce, la couleur, le nombre d'\u00e9toiles et l'ascend max\n- Les attributs \u00e0 l'ascend max (attaque et d\u00e9fense)\n- Le bonus de leader\n- L'IA de base\n- Le pet signature (s'il existe)\n- Les talents de base, d'ascend et de merge (s'il y en a)\n- La liste des \u00e9quipements utilis\u00e9s en fonction de l'ascend du h\u00e9ros\n- L'\u00e9valuation du bot : il s'agit d'une note sur 20 calcul\u00e9e en fonction des attributs et des talents des h\u00e9ros en comparaison des autres h\u00e9ros de la m\u00eame classe\n- Le(s) commentaire(s) laiss\u00e9(s) par les joueurs \u00e0 propos de ce h\u00e9ros. Vous pouvez vous-m\u00eame laisser un commentaire si vous le souhaitez via la commande /addcomment (/addcomment help pour + d'infos :wink:)\n\nExemple de commande valide : /hero Sandor",
+            "item": "Cette commande permet de lister les diff\u00e9rents h\u00e9ros pouvant \u00e9quiper l'item pass\u00e9 en param\u00e8tre.\nLes h\u00e9ros en question sont class\u00e9s par \u00e9toile, et le nombre d'occurences de l'item est repris.\n\nExemple de commande valide : /item Exalted Dagger",
+            "pet": "Cette commande renvoie les caract\u00e9ristiques suivantes du pet pass\u00e9 en param\u00e8tre :\n- La couleur, le nombre d'\u00e9toiles et la classe privil\u00e9gi\u00e9e du pet\n- Le bonus d'attribut au niveau max (en %)\n- Le(s) h\u00e9ros signature, ainsi que les autres h\u00e9ros pouvant profiter du bonus (m\u00eame couleur, m\u00eame classe)\n- Les talents de base, de merge, de classe et le gold talent avec son co\u00fbt en mana\n- Le(s) commentaire(s) laiss\u00e9(s) par les joueurs \u00e0 propos de ce pet. Vous pouvez vous-m\u00eame laisser un commentaire si vous le souhaitez via la commande /addcomment (/addcomment help pour + d'infos :wink:)\n\nExemple de commande valide : /pet Almond",
+            "petlist": "Cette commande permet de lister les diff\u00e9rents pets pouvant \u00eatre \u00e9quip\u00e9s par le h\u00e9ros pass\u00e9 en param\u00e8tre.\nLes pets en question sont class\u00e9s par \u00e9toile, en indiquant les bonus correspondants, ainsi que le co\u00fbt en mana s'il s'agit du talent gold.\n\nExemple de commande valide : /petlist Sandor",
+            "talent": "Cette commande permet de lister les diff\u00e9rents h\u00e9ros poss\u00e9dant le talent pass\u00e9 en param\u00e8tre.\nLes h\u00e9ros en question sont class\u00e9s par \u00e9toile, et le nombre d'occurences du talent est repris.\n\nExemple de commande valide : /talent Tumble",
+            "update": "Cette commande sert \u00e0 mettre \u00e0 jour le bot depuis le site du Fandom Wiki (https://friends-and-dragons.fandom.com/wiki/)\n\nLes diff\u00e9rents param\u00e8tres possibles sont :\n-   stats : pour mettre \u00e0 jour les attributs/classes des h\u00e9ros \u00e0 partir de la page https://friends-and-dragons.fandom.com/wiki/Hero_Stats\n-   gear : pour mettre \u00e0 jour les stuffs des h\u00e9ros \u00e0 partir de la page https://friends-and-dragons.fandom.com/wiki/Hero_Gear\n-   talents : pour mettre \u00e0 jour les talents des h\u00e9ros \u00e0 partir de la page https://friends-and-dragons.fandom.com/wiki/Hero_Talents\n-   all (ou aucun param\u00e8tre) : pour mettre \u00e0 jour les 3 tables ci-dessus\n\nSi vous souhaitez ajouter un h\u00e9ros du jeu ou modifier un param\u00e8tre mal renseign\u00e9, il vous suffit de mettre \u00e0 jour le wiki puis d'entrer la commande correspondante pour que le bot r\u00e9cup\u00e8re votre modification.\nPour info, la page Hero_Stats est utilis\u00e9e comme r\u00e9f\u00e9rence : si un h\u00e9ros n'y appara\u00eet pas, il ne sera pas r\u00e9f\u00e9renc\u00e9 pour le bot.\nIl est donc primordial de mettre \u00e0 jour cette page si vous souhaitez r\u00e9f\u00e9rencer un nouveau h\u00e9ros :wink:"
+        },
+        "title": {
+            "command": "Aide de la commande /",
+            "generic": "Aide du bot discord de Friends & Dragons FR"
+        }
+    },
+    "none": {
+        "color": "red",
+        "description": "Commande inexistante, merci d'utiliser /bothelp pour obtenir la liste des commandes utilisables",
+        "title": "Commande non trouv\u00e9e"
+    },
+    "petlist": {
+        "title": "Liste des pets \u00e9quipables par le h\u00e9ros "
+    },
+    "update": {
+        "color": "default",
+        "description": {
+            "all": "R\u00e9cup\u00e9ration de toutes les donn\u00e9es du Fandom Wiki r\u00e9ussie \n",
+            "erreur": "Le param\u00e8tre entr\u00e9 pour la commande /update n'a pas \u00e9t\u00e9 reconnu :cry:\nMerci de v\u00e9rifier et de r\u00e9it\u00e9rer la commande :wink:",
+            "part1": "R\u00e9cup\u00e9ration de le liste des ",
+            "part2": " du Fandom Wiki r\u00e9ussie \n",
+            "thxmsg": "Merci pour ta contribution :thumbsup:"
+        },
+        "title": "R\u00e9cup\u00e9ration des donn\u00e9es"
+    },
+    "wait": {
+        "color": "default",
+        "description": "Merci de patienter :wink: \nSi ce message ne se met pas \u00e0 jour, veuillez r\u00e9it\u00e9rer la commande :innocent:",
+        "title": "Requ\u00eate en cours..."
+    }
+}
