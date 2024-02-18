@@ -6,154 +6,210 @@ from classes.quality import *
 from classes.talent import *
 
 from .miscUtils import *
-from .strFunctions import *
+from .strUtils import *
 
 
-def find_match_name(arg, any_object_list):
+
+def find_match_names(arg, any_object_list):
+	to_return = []
+	
 	for an_object in any_object_list:
 		if an_object.name != None:
 			if str_compact(an_object.name) == str_compact(arg):
-				return an_object
-	return None
-
-
-def get_average_stat(my_hero, heroes, pets, whichone):
-	found_list = []
-	count = 0
-	for hero in heroes:
-		if my_hero.heroclass == hero.heroclass:
-			if whichone == 'att':
-				found_list.append(hero.att_max(pets))
-			elif whichone == 'def':
-				found_list.append(hero.def_max(pets))
-			count += 1
-	found_list.sort(reverse=True)
-
-	total = 0
-	for f in found_list:
-		total += f
-
-	if whichone == 'att':
-		my_index = found_list.index(my_hero.att_max(pets)) + 1
-	elif whichone == 'def':
-		my_index = found_list.index(my_hero.def_max(pets)) + 1
-
-	return [my_index, count, round(total/count)]
-
-
-def find_unique_talents(my_hero, heroes):
-	my_talents = []
-	for talent in my_hero.talents:
-		if talent.name not in my_talents:
-			my_talents.append(talent.name)
-
-	out_of_talents = False
-	for hero in heroes:
-		if hero.name != my_hero.name and hero.heroclass == my_hero.heroclass:
-			for htalent in hero.talents:
-				while htalent.name in my_talents:
-					my_talents.remove(htalent.name)
-					if len(my_talents) == 0:
-						out_of_talents = True
-						break
-				if out_of_talents:
-					break
-			if out_of_talents:
-				break
-		if out_of_talents:
-			break
-			
-
-	if out_of_talents:
-		return [None,None]
+				to_return.append(an_object)
+	
+	if len(to_return) == 1:
+		return to_return[0]
+	elif len(to_return) > 1:
+		return to_return
 	else:
-		my_talents.sort()
-		to_return = ''
-		for f in my_talents:
-			to_return += f + ', '
-		if len(my_talents) > 1:
-			addchar = 's'
-		else:
-			addchar = ''
-		return [to_return[:-2], addchar]
+		return None
 
 
-def find_gear(hero, qualities, whichone):
-	to_return = ''
-	price = 0
-	for gear in hero.gear:
-		if gear.ascend == whichone:
-			for quality in qualities:
-				if gear.quality == quality.name:
-					to_return += quality.icon + ' ' + quality.name + ' ' + gear.name + '\n'
-					price += quality.price
 
-	return [to_return, price]
-
-
-def find_comments(hero):
-	to_return = ''
-	for comment in hero.comments:
-		if comment.author != None:
-			to_return += '__' + comment.author + ' le ' + comment.date + '__\n'
-			to_return += comment.commentaire + '\n'
-	if to_return == '':
-		to_return += 'Pas de commentaire pour l\'instant :shrug:\n'
-		to_return += 'N\'hésitez pas à ajouter le vôtre via la commande /addcomment (/addcomment help pour plus d\'info) \n Sauf si c\'est kiki évidemment... :joy:'
-	return to_return
-
-
-def parse_args_to_item(args, qualities):
-	parsed_arg = args.split(' ')
-
-	for quality in qualities:
-		if str_compact(quality.name) == str_compact(parsed_arg[0]):
-			item_name = ' '.join(parsed_arg[1:])
-			return Item(name=item_name, quality=quality.name)
-
-	return Item(name=args, quality=None)
-
-
-def find_items(item, heroes):
-	found_heroes = [[],[],[],[],[],[]]
+def find_match_class(arg, heroes, pets, whichone):
+	found_objects = [[],[],[],[],[],[]]
 	some_match = False
 
-	for hero in heroes:
-		for gear in hero.gear:
+	match whichone:
+		case 'heroes':
+			object_list = heroes
+		case 'pets':
+			object_list = pets
+
+	raw_list = []
+	for obj in object_list:
+		to_append = ''
+		match whichone:
+			case 'heroes':
+				if str_compact(obj.heroclass) == str_compact(arg):
+					to_append = {'name': obj.name,
+							'color': obj.color,
+							'stars': obj.stars,
+							'att_max': obj.att_max(pets),
+							'att_rank': 0,
+							'def_max': obj.def_max(pets),
+							'def_rank': 0}
+
+			case 'pets':
+				if str_compact(obj.petclass) == str_compact(arg):
+					to_append = {'name': obj.name,
+							'color': obj.color,
+							'stars': obj.stars}
+
+		if to_append != '':
+			raw_list.append(to_append)
+
+	if whichone == 'heroes':
+		for my_key in [['att_max','att_rank'],['def_max','def_rank']]:
+			raw_list = sort_list(raw_list, my_key)
+
+	if len(raw_list) > 0:
+		for item in raw_list:
+			found_objects[item['stars']].append(item)
+		return found_objects
+	else:
+		return None
+
+
+
+def sort_list(my_list, keys):
+	sorted_list = sorted(my_list, key=lambda cle:cle[keys[0]], reverse = True)
+	
+	for item in sorted_list:
+		item[keys[1]] = sorted_list.index(item) + 1
+
+	#calcul des ex-aequo
+	for i in range(0, len(sorted_list)-1):
+		if sorted_list[i][keys[0]] == sorted_list[i+1][keys[0]]:
+			sorted_list[i+1][keys[1]] = sorted_list[i][keys[1]]
+
+	#renvoie des clés triées avec le rank dans la liste de base
+	for item in my_list:
+		for sorted_item in sorted_list:
+			if item[keys[0]] == sorted_item[keys[0]]:
+				item[keys[1]] == sorted_item[keys[1]]
+				break
+
+	return my_list
+
+
+
+def remove_doublons(found_objects):
+	for iter in range(0,len(found_objects)):
+		if len(found_objects[iter]) > 0:
+			doublon_count = 0
+			while doublon_count < len(found_objects[iter])-1:
+				if found_objects[iter][doublon_count]['name'] == found_objects[iter][doublon_count+1]['name']: #doublon spotted!
+					if found_objects[iter][doublon_count]['quality'] != '': #spechol case du doublon mais avec qualité d'item non spécifiée
+						found_objects[iter][doublon_count]['quality'] += ',' + found_objects[iter][doublon_count+1]['quality']
+					found_objects[iter][doublon_count]['count'] += 1
+					found_objects[iter][doublon_count]['pos'] += ',' + found_objects[iter][doublon_count+1]['pos']
+					del(found_objects[iter][doublon_count+1])
+				else:
+					doublon_count += 1
+
+	return found_objects
+
+
+
+def find_objects(item, obj_list, whichone):
+	found_objects = [[],[],[],[],[],[]]
+	some_match = False
+	
+	for to_parse in obj_list:
+		match whichone:
+			case 'item':
+				object_list = to_parse.gear
+			case 'heroTalent'|'petTalent':
+				object_list = to_parse.talents
+
+		for obj in object_list:
 			to_append = ''
-			if gear.name != None:
-				if str_compact(item.name) == str_compact(gear.name):
+			if obj.name != None:
+				if str_compact(item.name) == str_compact(obj.name):
 					some_match = True
-					if item.quality == None:
-						to_append = hero.name + ' (' + hero.color + ' ' + hero.heroclass + ') : ' + gear.ascend + ' (' + gear.quality + ')'
-					else:
-						if str_compact(item.quality) == str_compact(gear.quality):
-							to_append = hero.name + ' (' + hero.color + ' ' + hero.heroclass + ') : ' + gear.ascend
-					
+					match whichone:
+						case 'item':
+							if item.quality == None:
+								to_append = {'name': to_parse.name,
+									'color': to_parse.color,
+									'class': to_parse.heroclass,
+									'count': 1,
+									'pos': obj.ascend,
+									'quality': obj.quality}
+							else:
+								if str_compact(item.quality) == str_compact(obj.quality):
+									to_append = {'name': to_parse.name,
+									'color': to_parse.color,
+									'class': to_parse.heroclass,
+									'count': 1,
+									'pos': obj.ascend,
+									'quality': ''}
+						
+						case 'heroTalent':
+							to_append = {'name': to_parse.name,
+									'color': to_parse.color,
+									'class': to_parse.heroclass,
+									'count': 1,
+									'pos': obj.position,
+									'quality': ''}
+
+						case 'petTalent':
+							if obj.position == 'full' or obj.position == 'gold':
+								talent_pos = obj.position + ' talent'
+							else:
+								talent_pos = obj.position
+							to_append = {'name': to_parse.name,
+									'color': to_parse.color,
+									'class': to_parse.petclass,
+									'count': 1,
+									'pos' : talent_pos,
+									'quality': ''}
+			
 				if to_append != '':	
-					found_heroes[hero.stars].append(to_append)
+					found_objects[to_parse.stars].append(to_append)
 
-	for iter in range(0,len(found_heroes)):
-		if len(found_heroes[iter]) > 0:
-			doublon_iter = 0
-			while doublon_iter < len(found_heroes[iter])-1:
-				if found_heroes[iter][doublon_iter].split(' ')[0] == found_heroes[iter][doublon_iter+1].split(' ')[0]:
-					#doublon spotted!
-					found_heroes[iter][doublon_iter] = found_heroes[iter][doublon_iter] + ',' + ' '.join(found_heroes[iter][doublon_iter+1].split(':')[1:])
-					del(found_heroes[iter][doublon_iter+1])
-					doublon_iter -= 1
-				doublon_iter += 1
+	found_objects = remove_doublons(found_objects)
 
-	to_return = '### Héros pouvant équiper cet objet : ###\n'
-	for iter in range(0,len(found_heroes)):
-		if len(found_heroes[iter]) > 0:
-			to_return += '### ' + stars(iter) + ' ###\n'
-			for nb_match in found_heroes[iter]:
-				count_nb = len(nb_match.split(','))
-				if count_nb > 1:
-					to_insert = 'x' + str(count_nb) + ' :'
-					nb_match = to_insert.join(nb_match.split(':'))
-				to_return += nb_match + '\n'
+	if some_match:
+		return found_objects
+	else:
+		return None
+
+
+
+def format_results(found_objects):
+	to_return = ''
+	some_match = False
+
+	for star_iter in range(0,len(found_objects)):
+		if len(found_objects[star_iter]) > 0:
+			some_match = True
+			to_return += '### ' + stars(star_iter) + ' ###\n'
+			for obj in found_objects[star_iter]:
+				to_append = obj['name'] + ' (' + obj['color'] + ' ' + obj['class'] + ') '
+				if obj['count'] > 1:
+					to_append += 'x' + str(obj['count']) + ' '
+				to_append += ': '
+				
+				obj_ascends = obj['pos'].split(',')
+				if obj['quality'] != '' :	#spechol case de la recherche d'item sans qualité précisée
+					obj_qual = obj['quality'].split(',')
+					different_qualities = True
+				else:
+					different_qualities = False
+
+				obj_iter = 0
+				while obj_iter < len(obj_ascends):
+					to_append += obj_ascends[obj_iter]
+					if different_qualities:
+						to_append += ' (' + obj_qual[obj_iter] + ')'
+					to_append += ', '
+					obj_iter += 1
+	
+				to_return += to_append[:-2] + '\n'
+
 	if some_match:
 		return to_return
 	else:
@@ -161,16 +217,52 @@ def find_items(item, heroes):
 
 
 
-def recycle_item(item, qualities, dusts):
-	to_return = ''
-	for quality in qualities:
-		if str_compact(item.quality) == str_compact(quality.name):
-			my_dust = find_match_name(quality.recycling.dust.name, dusts)
-
-			to_return = '### Achat en boutique : ###\n'
-			to_return += str(quality.price) + ':gem:  (' + str(quality.discount_price) + ' :gem: en promo)\n'
-			to_return += '### Recyclage : ###\n'
-			to_return += '* :moneybag: ' + str(quality.recycling.gold) + '\n'
-			to_return += '* ' + my_dust.icon + ' ' + str(quality.recycling.dust.quantity) + ' ' + str(quality.recycling.dust.name) + ' dusts'
+def unique_objects(object_list, whichone):
+	to_return = []
+	for obj in object_list:
+		match whichone:
+			case 'heroclass':
+				if obj.heroclass not in to_return:
+					to_return.append(obj.heroclass)
 
 	return to_return
+
+
+
+def format_uniques(object_list):
+	to_return = ''
+	for obj in object_list:
+		to_return += '- ' + obj + '\n'
+
+	return to_return
+
+
+
+def find_pet_talents(pet):
+	m_talents = ['','','','','','','','','','','']
+	full_talent = {'name':'', 'description':''}
+	gold_talent = {'name':'', 'description':''}
+
+	for t in pet.talents:
+		if t.name != None:
+			position = t.position.split(' ')
+			if position[0] == 'base':
+				base_talents = str(t.name)
+			elif position[0] == 'silver':
+				silver_talents = str(t.name)
+			elif position[0] == 'full':
+				full_talent['name'] = t.name
+				if t.description != '':
+					full_talent['description'] = t.description
+				else:
+					full_talent['description'] = ''
+			elif position[0] == 'gold':
+				gold_talent['name'] = t.name
+				if t.description != '':
+					gold_talent['description'] = t.description
+				else:
+					gold_description = ''
+			elif position[0] == 'merge':
+				m_talents[int(position[1])] = t.name
+	
+	return [base_talents, silver_talents, full_talent, gold_talent, m_talents]

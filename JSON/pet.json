@@ -154,7 +154,7 @@
         "name": "Amaranthe",
         "petclass": "Elementalist",
         "signature": "Angus",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 3,
         "talents": [
             {
@@ -203,7 +203,7 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": "Attack Bonus",
+                "name": "Mana Efficiency",
                 "position": "merge 3"
             },
             {
@@ -283,7 +283,7 @@
         "name": "Anastasia",
         "petclass": "Princess",
         "signature": "Amberwing",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -412,7 +412,7 @@
         "name": "Aria",
         "petclass": "Healer",
         "signature": "Alyssandra",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -670,7 +670,7 @@
         "name": "Astra",
         "petclass": "Warlock",
         "signature": "Arafin",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -799,7 +799,7 @@
         "name": "Atticus",
         "petclass": "Guardian",
         "signature": "Aigror",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -928,7 +928,7 @@
         "name": "Avalanche",
         "petclass": "Ranger",
         "signature": "Azurefang",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 3,
         "talents": [
             {
@@ -977,7 +977,7 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": "Attack Bonus",
+                "name": "Mana Efficiency",
                 "position": "merge 3"
             },
             {
@@ -1057,7 +1057,7 @@
         "name": "Avalon",
         "petclass": "Knight",
         "signature": "Arilda",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -1186,7 +1186,7 @@
         "name": "Bernice",
         "petclass": "Princess",
         "signature": "Beatrix",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -1315,7 +1315,7 @@
         "name": "Biscuit",
         "petclass": "Guardian",
         "signature": "Brandon",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -1444,7 +1444,7 @@
         "name": "Bonsai",
         "petclass": "Monk",
         "signature": "Blaise",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -1702,7 +1702,7 @@
         "name": "Caramel",
         "petclass": "Ranger",
         "signature": "Caraway",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -1831,7 +1831,7 @@
         "name": "Charlotte",
         "petclass": "Princess",
         "signature": "Callista",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -1960,7 +1960,7 @@
         "name": "Chopper",
         "petclass": "Monk",
         "signature": "Cragg",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -2089,7 +2089,7 @@
         "name": "Cipher",
         "petclass": "Monk",
         "signature": "Crystal",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 1,
         "talents": [
             {
@@ -2218,7 +2218,7 @@
         "name": "Cira",
         "petclass": "Rogue",
         "signature": "Cindertongue",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 2,
         "talents": [
             {
@@ -2347,7 +2347,7 @@
         "name": "Clarissa",
         "petclass": "Princess",
         "signature": "Celeste",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -2476,7 +2476,7 @@
         "name": "Crescent",
         "petclass": "Knight",
         "signature": "Cassandra",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -2605,7 +2605,7 @@
         "name": "Dawn",
         "petclass": "Knight",
         "signature": "Dorian",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 1,
         "talents": [
             {
@@ -2734,7 +2734,7 @@
         "name": "Drexel",
         "petclass": "Warlock",
         "signature": "Draigh",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -2863,7 +2863,7 @@
         "name": "Dusty",
         "petclass": "Guardian",
         "signature": "Dracyian",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -2992,7 +2992,7 @@
         "name": "Echo",
         "petclass": "Healer",
         "signature": "Elgar",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 2,
         "talents": [
             {
@@ -3121,7 +3121,7 @@
         "name": "Eclair",
         "petclass": "Rogue",
         "signature": "Elmenora",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -3250,7 +3250,7 @@
         "name": "Eclipse",
         "petclass": "Knight",
         "signature": "Elora",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -3379,7 +3379,7 @@
         "name": "Elvira",
         "petclass": "Rogue",
         "signature": "Elliot",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 3,
         "talents": [
             {
@@ -3428,7 +3428,7 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": "Attack Bonus",
+                "name": "Mana Efficiency",
                 "position": "merge 3"
             },
             {
@@ -3508,7 +3508,7 @@
         "name": "Elysia",
         "petclass": "Healer",
         "signature": "Emory",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -3637,7 +3637,7 @@
         "name": "Enigma",
         "petclass": "Elementalist",
         "signature": "Ellarion",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -3766,7 +3766,7 @@
         "name": "Eruption",
         "petclass": "Elementalist",
         "signature": "Emberheart",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 1,
         "talents": [
             {
@@ -3895,7 +3895,7 @@
         "name": "Fable",
         "petclass": "Ranger",
         "signature": "Fenris",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -4024,7 +4024,7 @@
         "name": "Faelen",
         "petclass": "Knight",
         "signature": "Furia",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -4153,7 +4153,7 @@
         "name": "Felicity",
         "petclass": "Elementalist",
         "signature": "Frida",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 3,
         "talents": [
             {
@@ -4202,7 +4202,7 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": "Attack Bonus",
+                "name": "Mana Efficiency",
                 "position": "merge 3"
             },
             {
@@ -4282,7 +4282,7 @@
         "name": "Fuego",
         "petclass": "Knight",
         "signature": "Flamescale",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -4411,7 +4411,7 @@
         "name": "Funky",
         "petclass": "Monk",
         "signature": "Fimbryn",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -4540,7 +4540,7 @@
         "name": "Ginger",
         "petclass": "Ranger",
         "signature": "Gharn",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -4669,7 +4669,7 @@
         "name": "Glitterhoof",
         "petclass": "Paladin",
         "signature": "Goldclaw",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -4798,7 +4798,7 @@
         "name": "Gossamer",
         "petclass": "Healer",
         "signature": "Genert",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -4927,7 +4927,7 @@
         "name": "Gregorius",
         "petclass": "Rogue",
         "signature": "Greymoon",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -5056,7 +5056,7 @@
         "name": "Gwynn",
         "petclass": "Knight",
         "signature": "Geraint",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 3,
         "talents": [
             {
@@ -5105,7 +5105,7 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": "Attack Bonus",
+                "name": "Mana Efficiency",
                 "position": "merge 3"
             },
             {
@@ -5185,7 +5185,7 @@
         "name": "Harmony",
         "petclass": "Ranger",
         "signature": "Hogard",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 2,
         "talents": [
             {
@@ -5314,7 +5314,7 @@
         "name": "Hoshi",
         "petclass": "Javelineer",
         "signature": "Hedwig",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -5443,7 +5443,7 @@
         "name": "Illusia",
         "petclass": "Elementalist",
         "signature": "Illyria",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -5572,7 +5572,7 @@
         "name": "Inara",
         "petclass": "Javelineer",
         "signature": "Iris",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 3,
         "talents": [
             {
@@ -5621,7 +5621,7 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": "Attack Bonus",
+                "name": "Mana Efficiency",
                 "position": "merge 3"
             },
             {
@@ -5701,7 +5701,7 @@
         "name": "Ivy",
         "petclass": "Warlock",
         "signature": "Ixora",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -5830,7 +5830,7 @@
         "name": "Jinx",
         "petclass": "Ranger",
         "signature": "Jade",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 1,
         "talents": [
             {
@@ -5959,7 +5959,7 @@
         "name": "Kaia",
         "petclass": "Javelineer",
         "signature": "Koshak",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 3,
         "talents": [
             {
@@ -6008,7 +6008,7 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": "Attack Bonus",
+                "name": "Mana Efficiency",
                 "position": "merge 3"
             },
             {
@@ -6088,7 +6088,7 @@
         "name": "Khan",
         "petclass": "Javelineer",
         "signature": "Kyara",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -6217,7 +6217,7 @@
         "name": "Kismet",
         "petclass": "Ranger",
         "signature": "Khadush",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -6346,7 +6346,7 @@
         "name": "Lemon",
         "petclass": "Guardian",
         "signature": "Lia",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -6475,7 +6475,7 @@
         "name": "Leopold",
         "petclass": "Princess",
         "signature": "Lucia",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 3,
         "talents": [
             {
@@ -6524,7 +6524,7 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": "Attack Bonus",
+                "name": "Mana Efficiency",
                 "position": "merge 3"
             },
             {
@@ -6604,7 +6604,7 @@
         "name": "Linus",
         "petclass": "Monk",
         "signature": "Lotus",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -6991,7 +6991,7 @@
         "name": "Maximilian",
         "petclass": "Princess",
         "signature": "Moreia",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -7120,7 +7120,7 @@
         "name": "Melody",
         "petclass": "Healer",
         "signature": "Maribel",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 1,
         "talents": [
             {
@@ -7249,7 +7249,7 @@
         "name": "Midnight",
         "petclass": "Elementalist",
         "signature": "Moonshade",
-        "signature_bis": "X",
+        "signature_bis": "Moonshine",
         "stars": 5,
         "talents": [
             {
@@ -7378,7 +7378,7 @@
         "name": "Miracle",
         "petclass": "Healer",
         "signature": "Magda",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 3,
         "talents": [
             {
@@ -7427,7 +7427,7 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": "Attack Bonus",
+                "name": "Mana Efficiency",
                 "position": "merge 3"
             },
             {
@@ -7507,7 +7507,7 @@
         "name": "Mist",
         "petclass": "Healer",
         "signature": "Mosstail",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -7636,7 +7636,7 @@
         "name": "Montague",
         "petclass": "Princess",
         "signature": "Murtag",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -7765,7 +7765,7 @@
         "name": "Mystique",
         "petclass": "Paladin",
         "signature": "Meraldon",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 2,
         "talents": [
             {
@@ -8023,7 +8023,7 @@
         "name": "Nori",
         "petclass": "Guardian",
         "signature": "Nargol",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 3,
         "talents": [
             {
@@ -8072,7 +8072,7 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": "Attack Bonus",
+                "name": "Mana Efficiency",
                 "position": "merge 3"
             },
             {
@@ -8281,7 +8281,7 @@
         "name": "Prince",
         "petclass": "Ranger",
         "signature": "Penelope",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -8410,7 +8410,7 @@
         "name": "Prospero",
         "petclass": "Princess",
         "signature": "Primrose",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -8539,7 +8539,7 @@
         "name": "Rajah",
         "petclass": "Javelineer",
         "signature": "Raze",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -8668,7 +8668,7 @@
         "name": "Rebel",
         "petclass": "Monk",
         "signature": "Rurik",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 2,
         "talents": [
             {
@@ -8797,7 +8797,7 @@
         "name": "Ruffian",
         "petclass": "Rogue",
         "signature": "Ragnar",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 3,
         "talents": [
             {
@@ -8846,7 +8846,7 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": "Attack Bonus",
+                "name": "Mana Efficiency",
                 "position": "merge 3"
             },
             {
@@ -9055,7 +9055,7 @@
         "name": "Runar",
         "petclass": "Monk",
         "signature": "River",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 3,
         "talents": [
             {
@@ -9104,7 +9104,7 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": "Attack Bonus",
+                "name": "Mana Efficiency",
                 "position": "merge 3"
             },
             {
@@ -9184,7 +9184,7 @@
         "name": "Scipio",
         "petclass": "Monk",
         "signature": "Swiftcloud",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -9313,7 +9313,7 @@
         "name": "Scout",
         "petclass": "Ranger",
         "signature": "Sparrow",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 3,
         "talents": [
             {
@@ -9362,7 +9362,7 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": "Attack Bonus",
+                "name": "Mana Efficiency",
                 "position": "merge 3"
             },
             {
@@ -9442,7 +9442,7 @@
         "name": "Scythe",
         "petclass": "Warlock",
         "signature": "Shatterstorm",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 3,
         "talents": [
             {
@@ -9491,7 +9491,7 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": "Attack Bonus",
+                "name": "Mana Efficiency",
                 "position": "merge 3"
             },
             {
@@ -9700,7 +9700,7 @@
         "name": "Seedling",
         "petclass": "Elementalist",
         "signature": "Sylvain",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -9829,7 +9829,7 @@
         "name": "Seraph",
         "petclass": "Paladin",
         "signature": "Sigyn",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -10087,7 +10087,7 @@
         "name": "Silvermist",
         "petclass": "Javelineer",
         "signature": "Shadra",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -10216,7 +10216,7 @@
         "name": "Sirocco",
         "petclass": "Ranger",
         "signature": "Stormbreeze",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -10345,7 +10345,7 @@
         "name": "Snickers",
         "petclass": "Rogue",
         "signature": "Sanguina",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 2,
         "talents": [
             {
@@ -10474,7 +10474,7 @@
         "name": "Snowball",
         "petclass": "Rogue",
         "signature": "Sandor",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -10603,7 +10603,7 @@
         "name": "Strider",
         "petclass": "Knight",
         "signature": "Sharpscale",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 3,
         "talents": [
             {
@@ -10652,7 +10652,7 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": "Attack Bonus",
+                "name": "Mana Efficiency",
                 "position": "merge 3"
             },
             {
@@ -10732,7 +10732,7 @@
         "name": "Sundancer",
         "petclass": "Healer",
         "signature": "Sol",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -10861,7 +10861,7 @@
         "name": "Swindler",
         "petclass": "Rogue",
         "signature": "Shadowstep",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -10990,7 +10990,7 @@
         "name": "Taffy",
         "petclass": "Rogue",
         "signature": "Two-Talon",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -11119,7 +11119,7 @@
         "name": "Toby",
         "petclass": "Knight",
         "signature": "Tristan",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -11248,7 +11248,7 @@
         "name": "Topaz",
         "petclass": "Paladin",
         "signature": "Thargor",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 3,
         "talents": [
             {
@@ -11297,7 +11297,7 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": "Attack Bonus",
+                "name": "Mana Efficiency",
                 "position": "merge 3"
             },
             {
@@ -11377,7 +11377,7 @@
         "name": "Tucker",
         "petclass": "Guardian",
         "signature": "Trisha",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -11506,7 +11506,7 @@
         "name": "Twilight",
         "petclass": "Ranger",
         "signature": "Trillian",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -11635,7 +11635,7 @@
         "name": "Upton",
         "petclass": "Javelineer",
         "signature": "Ugaz",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -11764,7 +11764,7 @@
         "name": "Vex",
         "petclass": "Warlock",
         "signature": "Vera",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 4,
         "talents": [
             {
@@ -11893,7 +11893,7 @@
         "name": "Winston",
         "petclass": "Guardian",
         "signature": "Wildheart",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -12022,7 +12022,7 @@
         "name": "Zelda",
         "petclass": "Guardian",
         "signature": "Zenith",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 5,
         "talents": [
             {
@@ -12151,7 +12151,7 @@
         "name": "Zephyr",
         "petclass": "Knight",
         "signature": "Zana",
-        "signature_bis": "X",
+        "signature_bis": null,
         "stars": 2,
         "talents": [
             {

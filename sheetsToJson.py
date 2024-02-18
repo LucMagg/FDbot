@@ -9,7 +9,7 @@ from classes.pet import *
 
 from utils.jsonUtils import *
 from utils.pathUtils import *
-from utils.strFunctions import *
+from utils.strUtils import *
 
 
 
@@ -122,7 +122,7 @@ def petsheet_to_json():
 					talent.append(None)
 				j += 1
 
-			if row[5] == 'None':
+			if row[5] == 'X':
 				signature_bis = None
 			else:
 				signature_bis = row[5]

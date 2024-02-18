@@ -6721,6 +6721,246 @@
     },
     {
         "ascend_max": 8,
+        "attack": 1480,
+        "base_IA": "Charge(4)",
+        "color": "Red",
+        "comments": [
+            {
+                "author": null,
+                "commentaire": null,
+                "date": null
+            },
+            {
+                "author": null,
+                "commentaire": null,
+                "date": null
+            },
+            {
+                "author": null,
+                "commentaire": null,
+                "date": null
+            }
+        ],
+        "defense": 2660,
+        "gear": [
+            {
+                "ascend": "A0",
+                "name": "Amulet of Fire",
+                "quality": "Radiant"
+            },
+            {
+                "ascend": "A0",
+                "name": "Sword",
+                "quality": "Mythic"
+            },
+            {
+                "ascend": "A0",
+                "name": "Ring of Fire",
+                "quality": "Mythic"
+            },
+            {
+                "ascend": "A0",
+                "name": "Helmet",
+                "quality": "Mythic"
+            },
+            {
+                "ascend": "A0",
+                "name": "Bludgeon",
+                "quality": "Mythic"
+            },
+            {
+                "ascend": "A0",
+                "name": "Gauntlets",
+                "quality": "Epic"
+            },
+            {
+                "ascend": "A1",
+                "name": "Amulet of Fire",
+                "quality": "Brilliant"
+            },
+            {
+                "ascend": "A1",
+                "name": "Sword",
+                "quality": "Mythic"
+            },
+            {
+                "ascend": "A1",
+                "name": "Ring of Fire",
+                "quality": "Legendary"
+            },
+            {
+                "ascend": "A1",
+                "name": "Helmet",
+                "quality": "Legendary"
+            },
+            {
+                "ascend": "A1",
+                "name": "Bludgeon",
+                "quality": "Legendary"
+            },
+            {
+                "ascend": "A1",
+                "name": "Gauntlets",
+                "quality": "Mythic"
+            },
+            {
+                "ascend": "A2",
+                "name": "Amulet of Fire",
+                "quality": "Incandescent"
+            },
+            {
+                "ascend": "A2",
+                "name": "Sword",
+                "quality": "Legendary"
+            },
+            {
+                "ascend": "A2",
+                "name": "Ring of Fire",
+                "quality": "Divine"
+            },
+            {
+                "ascend": "A2",
+                "name": "Helmet",
+                "quality": "Exalted"
+            },
+            {
+                "ascend": "A2",
+                "name": "Bludgeon",
+                "quality": "Exalted"
+            },
+            {
+                "ascend": "A2",
+                "name": "Gauntlets",
+                "quality": "Legendary"
+            },
+            {
+                "ascend": "A3",
+                "name": "Amulet of Fire",
+                "quality": "Incandescent"
+            },
+            {
+                "ascend": "A3",
+                "name": "Sword",
+                "quality": "Exalted"
+            },
+            {
+                "ascend": "A3",
+                "name": "Ring of Fire",
+                "quality": "Divine"
+            },
+            {
+                "ascend": "A3",
+                "name": "Helmet",
+                "quality": "Divine"
+            },
+            {
+                "ascend": "A3",
+                "name": "Bludgeon",
+                "quality": "Exalted"
+            },
+            {
+                "ascend": "A3",
+                "name": "Gauntlets",
+                "quality": "Exalted"
+            }
+        ],
+        "heroclass": "Warrior",
+        "image_url": null,
+        "lead_bonus_color": "x1,70 att / x1,75 def for Red Beastfolk heroes",
+        "lead_bonus_species": "Bloodlust for Beastfolk heroes",
+        "name": "Bramble Rose",
+        "pet": null,
+        "species": "Beastfolk",
+        "stars": 5,
+        "talents": [
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Taunt",
+                "position": "base 1"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Resilient",
+                "position": "base 2"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Finishing Blow",
+                "position": "base 3"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Finishing Blow",
+                "position": "base 4"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Melee Parry",
+                "position": "base 5"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Impunity",
+                "position": "base 6"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Fortify",
+                "position": "ascend 1"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Resilient",
+                "position": "ascend 2"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Brutal Attack",
+                "position": "ascend 3"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Split Second",
+                "position": "merge 1"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Brutal Attack",
+                "position": "merge 2"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Bloodlust",
+                "position": "merge 3"
+            }
+        ]
+    },
+    {
+        "ascend_max": 8,
         "attack": 1210,
         "base_IA": "Evade(2)",
         "color": "Red",
@@ -14460,28 +14700,28 @@
             },
             {
                 "ascend": "A1",
-                "name": null,
-                "quality": null
+                "name": "Staff",
+                "quality": "Legendary"
             },
             {
                 "ascend": "A1",
-                "name": null,
-                "quality": null
+                "name": "Ring of Fire",
+                "quality": "Mythic"
             },
             {
                 "ascend": "A1",
-                "name": null,
-                "quality": null
+                "name": "Hat",
+                "quality": "Mythic"
             },
             {
                 "ascend": "A1",
-                "name": null,
-                "quality": null
+                "name": "Ingredient",
+                "quality": "Legendary"
             },
             {
                 "ascend": "A1",
-                "name": null,
-                "quality": null
+                "name": "Plate Mail",
+                "quality": "Legendary"
             },
             {
                 "ascend": "A2",
@@ -18990,28 +19230,28 @@
             },
             {
                 "ascend": "A0",
-                "name": null,
-                "quality": null
+                "name": "Wand",
+                "quality": "Mythic"
             },
             {
                 "ascend": "A0",
-                "name": null,
-                "quality": null
+                "name": "Ring of Fire",
+                "quality": "Mythic"
             },
             {
                 "ascend": "A0",
-                "name": null,
-                "quality": null
+                "name": "Hat",
+                "quality": "Epic"
             },
             {
                 "ascend": "A0",
-                "name": null,
-                "quality": null
+                "name": "Orb",
+                "quality": "Mythic"
             },
             {
                 "ascend": "A0",
-                "name": null,
-                "quality": null
+                "name": "Tabard",
+                "quality": "Mythic"
             },
             {
                 "ascend": "A1",
@@ -19187,14 +19427,14 @@
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": null,
+                "name": "Magic Parry",
                 "position": "merge 2"
             },
             {
                 "bonus_count": 0,
                 "bonus_type": "",
                 "description": "",
-                "name": null,
+                "name": "Rune of Fire",
                 "position": "merge 3"
             }
         ]
@@ -20395,6 +20635,246 @@
                 "bonus_type": "",
                 "description": "",
                 "name": "Whirlwind",
+                "position": "merge 3"
+            }
+        ]
+    },
+    {
+        "ascend_max": 7,
+        "attack": 950,
+        "base_IA": "Charge(4)",
+        "color": "Red",
+        "comments": [
+            {
+                "author": null,
+                "commentaire": null,
+                "date": null
+            },
+            {
+                "author": null,
+                "commentaire": null,
+                "date": null
+            },
+            {
+                "author": null,
+                "commentaire": null,
+                "date": null
+            }
+        ],
+        "defense": 1710,
+        "gear": [
+            {
+                "ascend": "A0",
+                "name": "Amulet of Fire",
+                "quality": "Radiant"
+            },
+            {
+                "ascend": "A0",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A0",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A0",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A0",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A0",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A1",
+                "name": "Amulet of Fire",
+                "quality": "Brilliant"
+            },
+            {
+                "ascend": "A1",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A1",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A1",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A1",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A1",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A2",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A2",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A2",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A2",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A2",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A2",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A3",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A3",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A3",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A3",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A3",
+                "name": null,
+                "quality": null
+            },
+            {
+                "ascend": "A3",
+                "name": null,
+                "quality": null
+            }
+        ],
+        "heroclass": "Pirate",
+        "image_url": null,
+        "lead_bonus_color": "x1,50 att / x1,60 def for Red heroes",
+        "lead_bonus_species": "Brutal Attack for Dwarf heroes",
+        "name": "Fulgrin",
+        "pet": null,
+        "species": "Dwarf",
+        "stars": 5,
+        "talents": [
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Cutlass & Flintlock",
+                "position": "base 1"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Pistoleer",
+                "position": "base 2"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Skirmisher",
+                "position": "base 3"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Melee Parry",
+                "position": "base 4"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Melee Parry",
+                "position": "base 5"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Prepare",
+                "position": "base 6"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Prepare",
+                "position": "ascend 1"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Push",
+                "position": "ascend 2"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": null,
+                "position": "ascend 3"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Split Second",
+                "position": "merge 1"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": null,
+                "position": "merge 2"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": null,
                 "position": "merge 3"
             }
         ]
@@ -33749,7 +34229,7 @@
         "lead_bonus_color": "x1,65 att / x1,80 def for Light Dragonborn heroes",
         "lead_bonus_species": "Magic Parry for Dragonborn heroes",
         "name": "Moonshine",
-        "pet": null,
+        "pet": "Midnight",
         "species": "Dragonborn",
         "stars": 5,
         "talents": [
@@ -44544,7 +45024,7 @@
                 "quality": null
             }
         ],
-        "heroclass": "Ranger",
+        "heroclass": "Archer",
         "image_url": null,
         "lead_bonus_color": "x1,55 att / x1,55 def for Green heroes",
         "lead_bonus_species": "Ranged Parry for Human heroes",

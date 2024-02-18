@@ -1,5 +1,5 @@
 import discord
-import time
+import asyncio
 
 from itertools import cycle
 from discord.ext import commands, tasks
@@ -30,8 +30,7 @@ intents.message_content = True
 intents.members = True
 
 client = discord.Client(intents=intents)
-print(str(client.status))
-status = cycle(['tuer les 5* de Jneb','tchitchi Lars','faire des Kronkeries','soit oui, Soanon','vénérer Tob','mâcher les gants usagés de Procto'])
+status = cycle(['tuer les 5* de Jneb','tchitchi Lars','faire des Kronkeries','soit oui, Soanon','vénérer Tob','mâcher les gants usagés de Procto','prêcher le dhjkisme'])
 
 @tasks.loop(seconds=30)
 async def change_status():
@@ -44,11 +43,10 @@ async def on_ready():
 	print(f'[{str_now()}] Bot loggé sous {client.user}')
 
 
-@client.event
+"""@client.event
 async def on_disconnect():
-	print(f'[{str_now()}] {client.user} déconnecté : tentative de reconnexion dans 5 secondes...')
-	sleep(5)
-	client.run(token=bot_key, reconnect=False)
+	print(f'[{str_now()}] {client.user} déconnecté : tentative de reconnexion...')
+	client.run(token=bot_key, reconnect=False)"""
 
 
 @client.event
@@ -75,6 +73,5 @@ async def on_message(msg):
         await return_msg[0].edit(embed=return_msg[1])
             
         print(f'[{str_now()}] [COMMAND ] commande {command} exécutée avec succès')
-
 
 client.run(token=bot_key, reconnect=False)

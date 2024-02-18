@@ -6,7 +6,7 @@ from .talent import *
 from .comment import *
 from .item import *
 from .pet import *
-from utils.findUtils import find_match_name
+from utils.findUtils import find_match_names
 
 
 class Hero(Item,Talent,Comment):
@@ -70,7 +70,7 @@ class Hero(Item,Talent,Comment):
 		"""renvoie le bonus du pet signature du héros s'il y en a un, sinon renvoie 0"""
 
 		if cls.pet != None:
-			return ceil(cls.attack * find_match_name(cls.pet,pets).attack / 100)
+			return ceil(cls.attack * find_match_names(cls.pet,pets).attack / 100)
 		else:
 			return 0
 
@@ -91,7 +91,7 @@ class Hero(Item,Talent,Comment):
 		"""renvoie le bonus du pet signature du héros s'il y en a un, sinon renvoie 0"""
 
 		if cls.pet != None:
-			return ceil(cls.defense * find_match_name(cls.pet,pets).defense / 100)
+			return ceil(cls.defense * find_match_names(cls.pet,pets).defense / 100)
 		else:
 			return 0
 
