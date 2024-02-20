@@ -224,7 +224,39 @@ def unique_objects(object_list, whichone):
 			case 'heroclass':
 				if obj.heroclass not in to_return:
 					to_return.append(obj.heroclass)
+			case 'petclass':
+				if obj.petclass not in to_return:
+					to_return.append(obj.petclass)
+			case 'color':
+				if obj.color not in to_return:
+					to_return.append(obj.color)
+			case 'species':
+				if obj.species not in to_return:
+					to_return.append(obj.species)
 
+	return sorted(to_return)
+
+
+
+def find_specific_objects(arg, object_list, whichone):
+	to_return = []
+	for obj in object_list:
+		match whichone:
+			case 'heroclass':
+				if obj.heroclass == arg:
+					to_return.append(obj)
+			case 'petclass':
+				if obj.petclass == arg:
+					to_return.append(obj)
+			case 'color':
+				if obj.color == arg:
+					to_return.append(obj)
+			case 'species':
+				if obj.species == arg:
+					to_return.append(obj)
+			case 'stars':
+				if obj.stars == arg:
+					to_return.append(obj)
 	return to_return
 
 

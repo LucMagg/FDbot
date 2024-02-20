@@ -9,6 +9,7 @@ from .command_item import get_items
 from .command_talent import get_talents_heroes_and_pets
 from .command_class import get_class
 from .command_petlist import get_pet_list
+from .command_botstats import get_bot_stats
 from .command_dhjk import dhjk
 
 
@@ -71,7 +72,16 @@ async def main_command(msg, command, args, heroes, pets, talents, dusts, qualiti
 					description=bot_commands['help']['description']['petlist'],
 					color=get_discord_color(bot_commands['help']['color']))
 			else:
-				return_msg = get_pet_list(args, heroes, pets,bot_commands)
+				return_msg = get_pet_list(args, heroes, pets, bot_commands)
+
+		case 'botstats':
+			if args == 'help':
+				return_msg = discord.Embed(title=bot_commands['help']['title']['command'] + command,
+					description=bot_commands['help']['description']['petlist'],
+					color=get_discord_color(bot_commands['help']['color']))
+			else:
+				return_msg = get_bot_stats(args, heroes, pets, talents, bot_commands)
+
 
 		case 'dhjk':
 			return_msg = dhjk(bot_commands)
