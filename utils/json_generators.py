@@ -172,12 +172,14 @@ def messages():
 			'color': 'red',
 			'description':'Commande inexistante, merci d\'utiliser /bothelp pour obtenir la liste des commandes utilisables'
 			},
-		'bankiki': {
-			'title': 'Kiki interdit :grinning:',
-			'color': 'default',
-			'description': 'Tu es désormais interdit de commentaire, et toc :joy::joy::joy:'
+		'nocomment': {
+			'description': 'Pas de commentaire pour l\'instant :shrug:\n' +
+						   'N\'hésitez pas à ajouter le vôtre via la commande /addcomment (/addcomment help pour plus d\'info)'
 		},
-		'footer': '*généré par F&D-discord-bot en ',
+		'footer': {
+			'ok': '*généré par F&D-discord-bot en ',
+			'too_long': '\n**[...]**\n\n:warning: la fin est tronquée pour cause de dépassement de la taille maximum d\'un message sur discord :shrug:\nSi possible, merci d\'affiner votre recherche pour avoir le résultat complet :wink:'
+		},
 		'dhjk': {
 			'0': {
 				'gif': 'https://media1.tenor.com/m/Vq3qMfYjhS4AAAAC/waynes-world.gif',

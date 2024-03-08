@@ -1,9 +1,4 @@
 {
-    "bankiki": {
-        "color": "default",
-        "description": "Tu es d\u00e9sormais interdit de commentaire, et toc :joy::joy::joy:",
-        "title": "Kiki interdit :grinning:"
-    },
     "class": {
         "color": "default",
         "title": "Liste des "
@@ -34,7 +29,10 @@
         "color": "red",
         "title": "Erreur"
     },
-    "footer": "*g\u00e9n\u00e9r\u00e9 par F&D-discord-bot en ",
+    "footer": {
+        "ok": "*g\u00e9n\u00e9r\u00e9 par F&D-discord-bot en ",
+        "too_long": "\n**[...]**\n\n:warning: la fin est tronqu\u00e9e pour cause de d\u00e9passement de la taille maximum d'un message sur discord :shrug:\nSi possible, merci d'affiner votre recherche pour avoir le r\u00e9sultat complet :wink:"
+    },
     "help": {
         "color": "default",
         "description": {
@@ -53,6 +51,9 @@
             "command": "Aide de la commande /",
             "generic": "Aide du bot discord de Friends & Dragons FR"
         }
+    },
+    "nocomment": {
+        "description": "Pas de commentaire pour l'instant :shrug:\nN'h\u00e9sitez pas \u00e0 ajouter le v\u00f4tre via la commande /addcomment (/addcomment help pour plus d'info)"
     },
     "none": {
         "color": "red",

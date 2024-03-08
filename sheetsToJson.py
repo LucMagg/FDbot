@@ -44,6 +44,11 @@ def herosheet_to_json():
 				else:
 					talent.append(None)
 
+			comments = []
+			for i in range(45,51,2):
+				if row[i] != '':
+					comments.append(Comment(author = comment_split(row[i],'author'), date = comment_split(row[i],'date'), commentaire = comment_split(row[i+1],'comment')).toJSON())
+
 			if row[52] == 'None':
 				lead_bonus_species = None
 			else:
@@ -82,10 +87,7 @@ def herosheet_to_json():
 					Talent(name = talent[11], position = 'merge 3').toJSON()
 				],
 				gear = gear,
-				comments = [Comment(author = comment_split(row[45],'author'), date = comment_split(row[45],'date'), commentaire = comment_split(row[46],'comment')).toJSON(),
-					Comment(author = comment_split(row[47],'author'), date = comment_split(row[47],'date'), commentaire = comment_split(row[48],'comment')).toJSON(),
-					Comment(author = comment_split(row[49],'author'), date = comment_split(row[49],'date'), commentaire = comment_split(row[50],'comment')).toJSON()
-				],
+				comments = comments,
 				lead_bonus_color = row[51],
 				lead_bonus_species = lead_bonus_species,
 				base_IA = row[53],
@@ -121,6 +123,11 @@ def petsheet_to_json():
 				else:
 					talent.append(None)
 				j += 1
+			
+			comments = []
+			for i in range(25,31,2):
+				if row[i] != '':
+					comments.append(Comment(author = comment_split(row[i],'author'), date = comment_split(row[i],'date'), commentaire = comment_split(row[i+1],'comment')).toJSON())
 
 			if row[5] == 'X':
 				signature_bis = None
@@ -156,10 +163,7 @@ def petsheet_to_json():
 					Talent(name = talent[12], position = 'merge 9').toJSON(),
 					Talent(name = talent[13], position = 'merge 10').toJSON()
 				],
-				comments = [Comment(author = comment_split(row[25],'author'),date = comment_split(row[25],'date'), commentaire = comment_split(row[26],'comment')).toJSON(),
-					Comment(author = comment_split(row[27],'author'), date = comment_split(row[27],'date'), commentaire = comment_split(row[28],'comment')).toJSON(),
-					Comment(author = comment_split(row[29],'author'), date = comment_split(row[29],'date'), commentaire = comment_split(row[30],'comment')).toJSON()
-				],
+				comments = comments,
 				image_url = image_url
 			)
 

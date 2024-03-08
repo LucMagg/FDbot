@@ -2,23 +2,7 @@
     {
         "attack": 15,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 7,
@@ -131,23 +115,7 @@
     {
         "attack": 12,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 7,
@@ -260,23 +228,7 @@
     {
         "attack": 15,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 12,
@@ -389,23 +341,7 @@
     {
         "attack": 15,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 2,
@@ -518,23 +454,7 @@
     {
         "attack": 15,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 7,
@@ -647,23 +567,7 @@
     {
         "attack": 15,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 2,
@@ -776,23 +680,7 @@
     {
         "attack": 15,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 5,
@@ -905,23 +793,7 @@
     {
         "attack": 12,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 7,
@@ -1034,23 +906,7 @@
     {
         "attack": 15,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -1163,23 +1019,7 @@
     {
         "attack": 15,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 12,
@@ -1292,23 +1132,7 @@
     {
         "attack": 15,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -1421,23 +1245,7 @@
     {
         "attack": 15,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -1550,23 +1358,7 @@
     {
         "attack": 15,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 5,
@@ -1679,23 +1471,7 @@
     {
         "attack": 15,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -1808,23 +1584,7 @@
     {
         "attack": 15,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 12,
@@ -1937,23 +1697,7 @@
     {
         "attack": 15,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -2066,23 +1810,7 @@
     {
         "attack": 10,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 10,
         "image_url": null,
         "manacost": 8,
@@ -2195,23 +1923,7 @@
     {
         "attack": 12,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 10,
@@ -2324,23 +2036,7 @@
     {
         "attack": 15,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -2451,25 +2147,122 @@
         ]
     },
     {
+        "attack": 10,
+        "color": "Dark",
+        "comments": [],
+        "defense": 10,
+        "image_url": null,
+        "manacost": 8,
+        "name": "Colby",
+        "petclass": "Paladin",
+        "signature": "Coalbone",
+        "signature_bis": null,
+        "stars": 1,
+        "talents": [
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "2",
+                "position": "base"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "1",
+                "position": "silver"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Moment of Clarity",
+                "position": "gold"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": null,
+                "position": "full"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Defense Bonus",
+                "position": "merge 1"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Attack Bonus",
+                "position": "merge 2"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Defense Bonus",
+                "position": "merge 3"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Attack Bonus",
+                "position": "merge 4"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Defense Bonus",
+                "position": "merge 5"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Attack Bonus",
+                "position": "merge 6"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Defense Bonus",
+                "position": "merge 7"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Attack Bonus",
+                "position": "merge 8"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Defense Bonus",
+                "position": "merge 9"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Attack Bonus",
+                "position": "merge 10"
+            }
+        ]
+    },
+    {
         "attack": 15,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -2582,23 +2375,7 @@
     {
         "attack": 10,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 10,
         "image_url": null,
         "manacost": 8,
@@ -2711,23 +2488,7 @@
     {
         "attack": 15,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 2,
@@ -2840,23 +2601,7 @@
     {
         "attack": 15,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 5,
@@ -2969,23 +2714,7 @@
     {
         "attack": 12,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 10,
@@ -3098,23 +2827,7 @@
     {
         "attack": 15,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -3227,23 +2940,7 @@
     {
         "attack": 15,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 5,
@@ -3356,23 +3053,7 @@
     {
         "attack": 12,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 7,
@@ -3485,23 +3166,7 @@
     {
         "attack": 15,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 2,
@@ -3614,23 +3279,7 @@
     {
         "attack": 15,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 7,
@@ -3743,23 +3392,7 @@
     {
         "attack": 10,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 10,
         "image_url": null,
         "manacost": 8,
@@ -3872,23 +3505,7 @@
     {
         "attack": 15,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 7,
@@ -4001,23 +3618,7 @@
     {
         "attack": 15,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -4130,23 +3731,7 @@
     {
         "attack": 12,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 7,
@@ -4259,23 +3844,7 @@
     {
         "attack": 15,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 7,
@@ -4388,23 +3957,7 @@
     {
         "attack": 15,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -4517,23 +4070,7 @@
     {
         "attack": 15,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -4646,23 +4183,7 @@
     {
         "attack": 15,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -4775,23 +4296,7 @@
     {
         "attack": 15,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -4904,23 +4409,7 @@
     {
         "attack": 15,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -5033,23 +4522,7 @@
     {
         "attack": 12,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 7,
@@ -5162,23 +4635,7 @@
     {
         "attack": 12,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 10,
@@ -5291,23 +4748,7 @@
     {
         "attack": 15,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -5420,23 +4861,7 @@
     {
         "attack": 15,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 5,
@@ -5549,23 +4974,7 @@
     {
         "attack": 12,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 7,
@@ -5678,23 +5087,7 @@
     {
         "attack": 15,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -5807,23 +5200,7 @@
     {
         "attack": 10,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 10,
         "image_url": null,
         "manacost": 8,
@@ -5936,23 +5313,7 @@
     {
         "attack": 12,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 7,
@@ -6065,23 +5426,7 @@
     {
         "attack": 15,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -6194,23 +5539,7 @@
     {
         "attack": 15,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -6323,23 +5652,7 @@
     {
         "attack": 15,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -6452,23 +5765,7 @@
     {
         "attack": 12,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 7,
@@ -6581,23 +5878,7 @@
     {
         "attack": 15,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -6710,23 +5991,7 @@
     {
         "attack": 15,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -6839,23 +6104,7 @@
     {
         "attack": 15,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 5,
@@ -6968,23 +6217,7 @@
     {
         "attack": 15,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 12,
@@ -7097,23 +6330,7 @@
     {
         "attack": 10,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 10,
         "image_url": null,
         "manacost": 8,
@@ -7226,23 +6443,7 @@
     {
         "attack": 15,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 5,
@@ -7355,23 +6556,7 @@
     {
         "attack": 12,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 7,
@@ -7484,23 +6669,7 @@
     {
         "attack": 15,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 2,
@@ -7613,23 +6782,7 @@
     {
         "attack": 15,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 12,
@@ -7742,23 +6895,7 @@
     {
         "attack": 12,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 10,
@@ -7871,23 +7008,7 @@
     {
         "attack": 15,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 2,
@@ -8000,23 +7121,7 @@
     {
         "attack": 12,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 7,
@@ -8129,23 +7234,7 @@
     {
         "attack": 15,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 7,
@@ -8258,23 +7347,7 @@
     {
         "attack": 15,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -8387,23 +7460,7 @@
     {
         "attack": 15,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -8516,23 +7573,7 @@
     {
         "attack": 15,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 7,
@@ -8645,23 +7686,7 @@
     {
         "attack": 12,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 12,
@@ -8774,23 +7799,7 @@
     {
         "attack": 12,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 7,
@@ -8903,23 +7912,7 @@
     {
         "attack": 15,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -9032,23 +8025,7 @@
     {
         "attack": 12,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 7,
@@ -9161,23 +8138,7 @@
     {
         "attack": 15,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 5,
@@ -9290,23 +8251,7 @@
     {
         "attack": 12,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 7,
@@ -9419,23 +8364,7 @@
     {
         "attack": 12,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 7,
@@ -9548,23 +8477,7 @@
     {
         "attack": 15,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -9677,23 +8590,7 @@
     {
         "attack": 15,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -9806,23 +8703,7 @@
     {
         "attack": 15,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -9935,23 +8816,7 @@
     {
         "attack": 15,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 12,
@@ -10064,23 +8929,7 @@
     {
         "attack": 15,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 2,
@@ -10193,23 +9042,7 @@
     {
         "attack": 15,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 7,
@@ -10322,23 +9155,7 @@
     {
         "attack": 12,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 10,
@@ -10451,23 +9268,7 @@
     {
         "attack": 15,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 5,
@@ -10580,23 +9381,7 @@
     {
         "attack": 12,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 7,
@@ -10709,23 +9494,7 @@
     {
         "attack": 15,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -10838,23 +9607,7 @@
     {
         "attack": 15,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -10967,23 +9720,7 @@
     {
         "attack": 15,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -11096,23 +9833,7 @@
     {
         "attack": 15,
         "color": "Dark",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 5,
@@ -11225,23 +9946,7 @@
     {
         "attack": 12,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 7,
@@ -11354,23 +10059,7 @@
     {
         "attack": 15,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 5,
@@ -11483,23 +10172,7 @@
     {
         "attack": 15,
         "color": "Blue",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 7,
@@ -11612,23 +10285,7 @@
     {
         "attack": 15,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -11741,23 +10398,7 @@
     {
         "attack": 15,
         "color": "Red",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 9,
@@ -11870,23 +10511,7 @@
     {
         "attack": 15,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 5,
@@ -11999,23 +10624,7 @@
     {
         "attack": 15,
         "color": "Light",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 15,
         "image_url": null,
         "manacost": 5,
@@ -12128,23 +10737,7 @@
     {
         "attack": 12,
         "color": "Green",
-        "comments": [
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            },
-            {
-                "author": null,
-                "commentaire": null,
-                "date": null
-            }
-        ],
+        "comments": [],
         "defense": 12,
         "image_url": null,
         "manacost": 10,

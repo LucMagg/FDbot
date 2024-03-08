@@ -1,7 +1,7 @@
 import discord
 from time import time
 
-from utils.miscUtils import get_discord_color, nick
+from utils.miscUtils import get_discord_color, nick, check_message_length
 from utils.strUtils import str_compact
 from utils.findUtils import unique_objects, format_uniques
 from .command_stats import get_stats
@@ -10,6 +10,7 @@ from .command_talent import get_talents_heroes_and_pets
 from .command_class import get_class
 from .command_petlist import get_pet_list
 from .command_botstats import get_bot_stats
+from .command_addcomment import set_comment
 from .command_dhjk import dhjk
 
 
@@ -40,7 +41,7 @@ async def main_command(msg, command, args, heroes, pets, talents, dusts, qualiti
 					description=bot_commands['help']['description'][command],
 					color=get_discord_color(bot_commands['help']['color']))
 			else:
-				return_msg = get_stats(args, command, heroes, pets, talents, qualities, bot_commands)
+				return_msg = get_stats(args, command, heroes, pets, qualities, bot_commands)
 
 		case 'item':
 			if args == 'help':
@@ -82,23 +83,30 @@ async def main_command(msg, command, args, heroes, pets, talents, dusts, qualiti
 			else:
 				return_msg = get_bot_stats(args, heroes, pets, talents, bot_commands)
 
+		case 'addcomment':
+			if args == 'help':
+				return_msg = discord.Embed(title=bot_commands['help']['title']['command'] + command,
+					description=bot_commands['help']['description']['addcomment'],
+					color=get_discord_color(bot_commands['help']['color']))
+			else:
+				return_msg = set_comment(args, author, heroes, pets, qualities, bot_commands)
+
 
 		case 'dhjk':
 			return_msg = dhjk(bot_commands)
 
-		case other:
+		case _:
 			return_msg = discord.Embed(title=bot_commands['none']['title'],
 					description=bot_commands['none']['description'],
 					color=get_discord_color(bot_commands['help']['color']))
 			
 	#garde-fou contre les messages trop longs
-	footer_txt = bot_commands['footer'] + str(round(time()-begin_time,3))+ 's*'
+	footer_txt = bot_commands['footer']['ok'] + str(round(time()-begin_time,3))+ 's*'
 
-	if len(return_msg.description) + len(footer_txt) > 4096:
-		error_msg = "\n**[...]**\n\n:warning: la fin est tronquée pour cause de dépassement de la taille maximum d\'un message sur discord :shrug:\nSi possible, merci d'affiner votre recherche pour avoir le résultat complet :wink:"
-		taille_max = 4096 - len(footer_txt) - len(error_msg)
-		return_msg.description = return_msg.description[0:taille_max] + error_msg
-
+	if not check_message_length(return_msg.description, bot_commands):
+		taille_max = 4096 - len(footer_txt) - len(bot_commands['footer']['too_long'])
+		return_msg.description = return_msg.description[0:taille_max] + bot_commands['footer']['too_long']
+	
 	return_msg.set_footer(text=footer_txt)
 
 	return [wait_msg, return_msg]

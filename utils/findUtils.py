@@ -293,7 +293,7 @@ def find_pet_talents(pet):
 				if t.description != '':
 					gold_talent['description'] = t.description
 				else:
-					gold_description = ''
+					gold_talent['description'] = ''
 			elif position[0] == 'merge':
 				m_talents[int(position[1])] = t.name
 	

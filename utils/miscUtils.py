@@ -46,3 +46,17 @@ def stars(how_many):
 	for iter in range(0,how_many):
 		stars += ':star:'
 	return stars
+
+
+
+def date_format_fr():
+	return strftime("%d/%m/%Y", localtime())
+
+
+
+def check_message_length(description, bot_commands):
+	footer_txt = bot_commands['footer']['ok'] + 's*'
+	if len(description) + len(footer_txt) > 4094:
+		return False
+	else:
+		return True

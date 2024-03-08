@@ -1,9 +1,8 @@
 import discord
-import asyncio
 
 from itertools import cycle
-from discord.ext import commands, tasks
-from utils.miscUtils import str_now, nick
+from discord.ext import tasks
+from utils.miscUtils import str_now
 from utils.loadBDD import *
 from commands.mainCommand import *
 
@@ -41,12 +40,6 @@ async def change_status():
 async def on_ready():
 	change_status.start()
 	print(f'[{str_now()}] Bot loggé sous {client.user}')
-
-
-"""@client.event
-async def on_disconnect():
-	print(f'[{str_now()}] {client.user} déconnecté : tentative de reconnexion...')
-	client.run(token=bot_key, reconnect=False)"""
 
 
 @client.event
