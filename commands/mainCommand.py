@@ -14,16 +14,11 @@ from .command_addcomment import set_comment
 from .command_dhjk import dhjk
 
 
-async def main_command(msg, command, args, heroes, pets, talents, dusts, qualities, bot_commands):
+def main_command(msg, command, args, heroes, pets, talents, dusts, qualities, bot_commands):
 	"""fonction principale de commande : vérifie si la commande existe"""
 
 	begin_time = time()
 	author = nick(msg)
-
-	#envoie le message de prise en compte de la commande avant traitement
-	wait_msg = await msg.channel.send(embed=discord.Embed(title=bot_commands['wait']['title'],
-			description=bot_commands['wait']['description'],
-			color=get_discord_color(bot_commands['wait']['color'])))
 
 	#check la commande
 	if ('dhjk' in str.lower(args)) or (str_compact(author) == 'dhjk' and str_compact(command) == 'moi') or (command == 'dieu') or (command == 'god'):
@@ -91,6 +86,14 @@ async def main_command(msg, command, args, heroes, pets, talents, dusts, qualiti
 			else:
 				return_msg = set_comment(args, author, heroes, pets, qualities, bot_commands)
 
+		case 'update':
+			if args == 'help':
+				return_msg = discord.Embed(title=bot_commands['help']['title']['command'] + command,
+					description=bot_commands['help']['description']['update'],
+					color=get_discord_color(bot_commands['help']['color']))
+			else:
+				return_msg = get_update(args, author, heroes, pets, qualities, bot_commands)
+
 
 		case 'dhjk':
 			return_msg = dhjk(bot_commands)
@@ -109,4 +112,4 @@ async def main_command(msg, command, args, heroes, pets, talents, dusts, qualiti
 	
 	return_msg.set_footer(text=footer_txt)
 
-	return [wait_msg, return_msg]
+	return return_msg

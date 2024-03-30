@@ -13,9 +13,9 @@ def str_now():
 def nick(message):
 	"""renvoie l'auteur du message (objet discord)"""
 
-	nickname = message.author.nick
+	nickname = message.user.nick
 	if nickname == None:
-		nickname = message.author.global_name
+		nickname = message.user.global_name
 	else:
 		nickname = str(nickname).split('[')[0]
 

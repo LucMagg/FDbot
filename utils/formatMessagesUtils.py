@@ -202,7 +202,7 @@ def get_average_stat(my_hero, heroes, pets, whichone):
 def find_unique_talents(my_hero, heroes):
 	my_talents = []
 	for talent in my_hero.talents:
-		if talent.name not in my_talents:
+		if talent.name not in my_talents and talent.name != None:
 			my_talents.append(talent.name)
 
 	out_of_talents = False
@@ -220,9 +220,8 @@ def find_unique_talents(my_hero, heroes):
 				break
 		if out_of_talents:
 			break
-			
 
-	if out_of_talents:
+	if len(my_talents) == 0:
 		return [None,None]
 	else:
 		my_talents.sort()
@@ -258,5 +257,5 @@ def format_comments(hero_or_pet, bot_commands):
 			to_return += '__' + comment.author + ' le ' + comment.date + '__\n'
 			to_return += comment.commentaire + '\n'
 	if to_return == '':
-		to_return = bot_commands['nocomments']['description']
+		to_return = bot_commands['nocomment']['description']
 	return to_return
