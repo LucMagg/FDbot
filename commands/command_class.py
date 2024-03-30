@@ -35,11 +35,9 @@ def get_class(args, heroes, pets, bot_commands):
 def format_class_results(found_objects, whichone):
 	to_return = ''
 	some_match = False
-	print(found_objects)
 
 	if found_objects != None:
 		for star_iter in range(0,len(found_objects)):
-			print(star_iter)
 			if len(found_objects[star_iter]) > 0:
 				some_match = True
 				to_return += '### ' + stars(star_iter) + ' ###\n'
@@ -60,7 +58,6 @@ def format_class_results(found_objects, whichone):
 
 						case 'Pets':
 							to_return += '\n'
-				print(to_return)
 
 	if some_match:
 		return to_return
