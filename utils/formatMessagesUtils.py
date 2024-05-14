@@ -59,14 +59,14 @@ def format_hero(hero, heroes, pets, qualities):
 	description += '### Attributs max (A' + str(hero.ascend()) + ' - lvl ' + str(hero.lvl_max()) + ') : ###' + '\n'
 	description += '__**Attaque**__ : ' + '\n'
 	description += '**Total : ' + str(hero.att_max(pets)) + '**\n'  
-	description += '(base : ' + str(hero.attack) + ' + équipements : ' + str(hero.att_gear()) + ' + merge : ' + str(hero.att_merge())
+	description += '(base : ' + str(hero.attack()) + ' + équipements : ' + str(hero.att_gear()) + ' + merge : ' + str(hero.att_merge())
 	if hero.att_pet_boost(pets) != 0:
 		description += ' + pet bonus : ' + str(hero.att_pet_boost(pets))
 	description +=  ')\n'
 	description += str(att_moyenne[0]) + added_att_char + ' sur ' + str(att_moyenne[1]) + ' ' + str_compact(hero.heroclass) + 's (moyenne de la classe : ' + str(att_moyenne[2]) + ')\n\n'
 	description += '__**Défense**__ : ' + '\n'
 	description += '**Total : ' + str(hero.def_max(pets)) + '**\n'
-	description += '(base : ' + str(hero.defense) + ' + équipements : ' + str(hero.def_gear_merge()) + ' + merge : ' + str(hero.def_gear_merge())
+	description += '(base : ' + str(hero.defense()) + ' + équipements : ' + str(hero.def_gear_merge()) + ' + merge : ' + str(hero.def_gear_merge())
 	if hero.def_pet_boost(pets) != 0:
 		description += ' + pet bonus : ' + str(hero.def_pet_boost(pets))
 	description +=  ')\n'
@@ -245,7 +245,6 @@ def find_gear(hero, qualities, whichone):
 				if gear.quality == quality.name:
 					to_return += quality.icon + ' ' + quality.name + ' ' + gear.name + '\n'
 					price += quality.price
-
 	return [to_return, price]
 
 

@@ -109,6 +109,28 @@ json = [{
                 "type": 3,
                 "required": True
             }] 
+    },
+    {
+        "name": "update",
+        "type": 1,
+        "description": "Permet d'update le bot à partir du wiki.",
+        "options": [
+            {
+                "name": "type",
+                "description": "Type de BDD à mettre à jour",
+                "type": 3,
+                "required": False,
+                "choices": [
+                    {"name": "Héros",
+                     "value": "heroes"},
+                    {"name": "Pets",
+                     "value": "pets"},
+                    {"name": "Tout",
+                     "value": "all"}
+                ]
+            }
+            
+        ]
     }
 ]
     
@@ -119,7 +141,16 @@ headers = {
     "Authorization": "Bot MTExOTczMTU0MTQ4NTAzNTU4MQ.GK140N.TMCXf29j9p51bl19yhK7ISKjVwXZdO5TZppCAY"
 }
 
-for command in json:
-    r = requests.post(url, headers=headers, json=command)
+def post():
+    for command in json:
+        r = requests.post(url, headers=headers, json=command)
+        print(r.text)
+        time.sleep(2)
+
+#def get():
+r = requests.get(url, headers=headers)
+print(r.text)
+
+def delete():
+    r = requests.delete(url + '/1223631277530288200', headers=headers)
     print(r.text)
-    time.sleep(2)

@@ -5,7 +5,7 @@ from time import strftime, localtime
 def str_now():
 	"""renvoie la date et l'heure sous forme de chaîne"""
 
-	return strftime("%Y-%m-%d %H:%M:%S", localtime())
+	return strftime('%Y-%m-%d %H:%M:%S', localtime())
 
 
 
@@ -55,8 +55,8 @@ def date_format_fr():
 
 
 def check_message_length(description, bot_commands):
-	footer_txt = bot_commands['footer']['ok'] + 's*'
-	if len(description) + len(footer_txt) > 4094:
+	footer_txt = bot_commands['footer']['ok']
+	if len(description) + len(footer_txt) > 4096:
 		return False
 	else:
 		return True

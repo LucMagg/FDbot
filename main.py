@@ -4,7 +4,7 @@ from discord import app_commands
 
 from itertools import cycle
 from discord.ext import tasks, commands
-from utils.miscUtils import str_now
+from utils.miscUtils import str_now, get_discord_color
 from utils.loadBDD import *
 from commands.mainCommand import *
 from utils.loggerUtils import *
@@ -93,6 +93,9 @@ async def command_petlist(interaction: discord.Interaction):
 @bot.tree.command(name="talent")
 async def command_talent(interaction: discord.Interaction):
     await on_command(interaction)
+@bot.tree.command(name="update")
+async def command_update(interaction: discord.Interaction):
+    await on_command(interaction)
 
 
 async def on_command(msg):
@@ -107,7 +110,12 @@ async def on_command(msg):
         pass    
 
     print(f'[{str_now()}] [COMMAND ] commande {command} entrée par {msg.user} dans le chan {msg.channel} du serveur {msg.guild.name} (arguments = {args})')
-    await msg.response.send_message(embed=main_command(msg, command, args, heroes, pets, talents, dusts, qualities, bot_commands))
+    await msg.response.send_message(embed=discord.Embed(title=bot_commands['wait']['title'],
+					description=bot_commands['wait']['description'],
+					color=get_discord_color(bot_commands['wait']['color'])))
+    message = main_command(msg, command, args, heroes, pets, talents, dusts, qualities, bot_commands)
+    to_edit = await msg.original_response()
+    await to_edit.edit(embed=message)
     print(f'[{str_now()}] [COMMAND ] commande {command} exécutée avec succès')
     loggerData['message_count'] += 1
     totalUptime = time() - uptime

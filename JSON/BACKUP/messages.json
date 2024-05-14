@@ -30,7 +30,7 @@
         "title": "Erreur"
     },
     "footer": {
-        "ok": "*g\u00e9n\u00e9r\u00e9 par F&D-discord-bot en ",
+        "ok": "g\u00e9n\u00e9r\u00e9 par F&D-bot",
         "too_long": "\n**[...]**\n\n:warning: la fin est tronqu\u00e9e pour cause de d\u00e9passement de la taille maximum d'un message sur discord :shrug:\nSi possible, merci d'affiner votre recherche pour avoir le r\u00e9sultat complet :wink:"
     },
     "help": {

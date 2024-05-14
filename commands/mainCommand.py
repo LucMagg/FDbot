@@ -12,12 +12,12 @@ from .command_petlist import get_pet_list
 from .command_botstats import get_bot_stats
 from .command_addcomment import set_comment
 from .command_dhjk import dhjk
+from .command_update import get_update
 
 
 def main_command(msg, command, args, heroes, pets, talents, dusts, qualities, bot_commands):
 	"""fonction principale de commande : vérifie si la commande existe"""
 
-	begin_time = time()
 	author = nick(msg)
 
 	#check la commande
@@ -92,7 +92,7 @@ def main_command(msg, command, args, heroes, pets, talents, dusts, qualities, bo
 					description=bot_commands['help']['description']['update'],
 					color=get_discord_color(bot_commands['help']['color']))
 			else:
-				return_msg = get_update(args, author, heroes, pets, qualities, bot_commands)
+				return_msg = get_update(args, author, heroes, pets, bot_commands)
 
 
 		case 'dhjk':
@@ -104,7 +104,7 @@ def main_command(msg, command, args, heroes, pets, talents, dusts, qualities, bo
 					color=get_discord_color(bot_commands['help']['color']))
 			
 	#garde-fou contre les messages trop longs
-	footer_txt = bot_commands['footer']['ok'] + str(round(time()-begin_time,3))+ 's*'
+	footer_txt = bot_commands['footer']['ok']
 
 	if not check_message_length(return_msg.description, bot_commands):
 		taille_max = 4096 - len(footer_txt) - len(bot_commands['footer']['too_long'])

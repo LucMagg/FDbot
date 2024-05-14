@@ -5,7 +5,19 @@ from .comment import *
 class Pet(Talent, Comment):
 	"""Classe des pets"""
 
-	def __init__(self,name, stars, petclass, color, signature, signature_bis, attack, defense, manacost, talents, comments, image_url):
+	def __init__(self, 
+			  name='',
+			  stars=0,
+			  petclass='',
+			  color='',
+			  signature='',
+			  signature_bis='',
+			  attack=0,
+			  defense=0,
+			  manacost=0,
+			  talents=[],
+			  comments=[],
+			  image_url=None):
 		"""Initialise le pet"""
 		self.name = name
 		self.stars = int(stars)
