@@ -174,3 +174,11 @@ def get_pets():
 		to_return.append(to_append)
 
 	return to_return
+
+def get_spire_scores():
+	my_json = 'spire.json'
+	my_path = add_rep_to_parent('JSON')
+
+	spires = importFromJson(my_json,my_path)
+
+	return spires

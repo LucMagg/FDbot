@@ -1,6 +1,8 @@
 import discord
 from time import time
 from discord import app_commands
+from dotenv import load_dotenv
+import os
 
 from itertools import cycle
 from discord.ext import tasks, commands
@@ -27,10 +29,11 @@ bot_commands = get_messages()
 print(f'[{str_now()}] --- Messages du bot OK')
 loggerData = readLogger()
 print(f'[{str_now()}] --- Logger OK')
+spire_scores = get_spire_scores()
+print(f'[{str_now()}] --- Scores des spires OK')
 
 
 print (f'[{str_now()}] Démarrage du bot...')
-bot_key = 'MTExOTczMTU0MTQ4NTAzNTU4MQ.GK140N.TMCXf29j9p51bl19yhK7ISKjVwXZdO5TZppCAY'
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
@@ -96,6 +99,10 @@ async def command_talent(interaction: discord.Interaction):
 @bot.tree.command(name="update")
 async def command_update(interaction: discord.Interaction):
     await on_command(interaction)
+@bot.tree.command(name="spire")
+async def command_spire(interaction: discord.Interaction):
+    await on_command(interaction)
+    global spire_scores
 
 
 async def on_command(msg):
@@ -113,7 +120,7 @@ async def on_command(msg):
     await msg.response.send_message(embed=discord.Embed(title=bot_commands['wait']['title'],
 					description=bot_commands['wait']['description'],
 					color=get_discord_color(bot_commands['wait']['color'])))
-    message = main_command(msg, command, args, heroes, pets, talents, dusts, qualities, bot_commands)
+    message = main_command(msg, command, args, heroes, pets, talents, dusts, qualities, spire_scores, bot_commands)
     to_edit = await msg.original_response()
     await to_edit.edit(embed=message)
     print(f'[{str_now()}] [COMMAND ] commande {command} exécutée avec succès')
@@ -123,4 +130,6 @@ async def on_command(msg):
     loggerData['uptime'] += totalUptime
     writeLogger(loggerData)
 
+load_dotenv()
+bot_key = os.getenv('BOT_KEY')
 bot.run(token=bot_key)

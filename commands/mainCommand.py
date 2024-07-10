@@ -13,9 +13,10 @@ from .command_botstats import get_bot_stats
 from .command_addcomment import set_comment
 from .command_dhjk import dhjk
 from .command_update import get_update
+from .command_spire import get_spire
 
 
-def main_command(msg, command, args, heroes, pets, talents, dusts, qualities, bot_commands):
+def main_command(msg, command, args, heroes, pets, talents, dusts, qualities, spire_scores, bot_commands):
 	"""fonction principale de commande : vérifie si la commande existe"""
 
 	author = nick(msg)
@@ -97,6 +98,10 @@ def main_command(msg, command, args, heroes, pets, talents, dusts, qualities, bo
 
 		case 'dhjk':
 			return_msg = dhjk(bot_commands)
+
+		case 'spire':
+			args = args.split(' ')
+			return_msg = get_spire(msg, args[0], author, args[1], args[2], spire_scores, bot_commands)
 
 		case _:
 			return_msg = discord.Embed(title=bot_commands['none']['title'],

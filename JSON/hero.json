@@ -55742,18 +55742,18 @@
         "type": "Ranged"
     },
     {
-        "ascend_max": 0,
-        "attack100": 0,
-        "attack75": 0,
-        "attack85": 0,
-        "attack95": 0,
-        "base_IA": "",
-        "color": "",
+        "ascend_max": 6,
+        "attack100": 880,
+        "attack75": 440,
+        "attack85": 570,
+        "attack95": 780,
+        "base_IA": "Charge(4)",
+        "color": "Blue",
         "comments": [],
-        "defense100": 0,
-        "defense75": 0,
-        "defense85": 0,
-        "defense95": 0,
+        "defense100": 2270,
+        "defense75": 1060,
+        "defense85": 1430,
+        "defense95": 1960,
         "gear": [
             {
                 "ascend": "A0",
@@ -55876,31 +55876,116 @@
                 "quality": "Legendary"
             }
         ],
-        "heroclass": "",
-        "image_url": null,
+        "heroclass": "Warrior",
+        "image_url": "https://static.wikia.nocookie.net/friends-and-dragons/images/b/bd/Kelp_Portrait.png/revision/latest?cb=20240502205010",
         "lead_bonus_color": "",
         "lead_bonus_species": "",
         "name": "Kelp",
-        "pattern": "",
+        "pattern": "Cross",
         "pet": null,
-        "species": "",
-        "stars": 0,
-        "talents": [],
-        "type": ""
+        "species": "Beastfolk",
+        "stars": 3,
+        "talents": [
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Taunt",
+                "position": "base 1"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Diagonal Parry",
+                "position": "base 2"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Diagonal Parry",
+                "position": "base 3"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Bloodlust",
+                "position": "base 4"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": null,
+                "position": "base 5"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": null,
+                "position": "base 6"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Bleed Resistance",
+                "position": "ascend 1"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Resilient",
+                "position": "ascend 2"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Venom",
+                "position": "ascend 3"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": null,
+                "position": "merge 1"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": null,
+                "position": "merge 2"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": null,
+                "position": "merge 3"
+            }
+        ],
+        "type": "Melee"
     },
     {
-        "ascend_max": 0,
-        "attack100": 0,
-        "attack75": 0,
-        "attack85": 0,
-        "attack95": 0,
-        "base_IA": "",
-        "color": "",
+        "ascend_max": 8,
+        "attack100": 2260,
+        "attack75": 870,
+        "attack85": 1210,
+        "attack95": 1710,
+        "base_IA": "Charge(4)",
+        "color": "Red",
         "comments": [],
-        "defense100": 0,
-        "defense75": 0,
-        "defense85": 0,
-        "defense95": 0,
+        "defense100": 1400,
+        "defense75": 540,
+        "defense85": 750,
+        "defense95": 1060,
         "gear": [
             {
                 "ascend": "A0",
@@ -56023,17 +56108,102 @@
                 "quality": "Divine"
             }
         ],
-        "heroclass": "",
-        "image_url": null,
+        "heroclass": "Assassin",
+        "image_url": "https://static.wikia.nocookie.net/friends-and-dragons/images/6/68/Maple_Portrait.png/revision/latest?cb=20240502205011",
         "lead_bonus_color": "",
         "lead_bonus_species": "",
         "name": "Maple",
-        "pattern": "",
+        "pattern": "Cross",
         "pet": null,
-        "species": "",
-        "stars": 0,
-        "talents": [],
-        "type": ""
+        "species": "Beastfolk",
+        "stars": 5,
+        "talents": [
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Finishing Blow",
+                "position": "base 1"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Slay Monstrosity",
+                "position": "base 2"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Exploit Weakness",
+                "position": "base 3"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Exploit Weakness",
+                "position": "base 4"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Exploit Weakness",
+                "position": "base 5"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Fortify",
+                "position": "base 6"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Curse Resistance",
+                "position": "ascend 1"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Fortify",
+                "position": "ascend 2"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Exploit Weakness",
+                "position": "ascend 3"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Split Second",
+                "position": "merge 1"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Cardinal Parry",
+                "position": "merge 2"
+            },
+            {
+                "bonus_count": 0,
+                "bonus_type": "",
+                "description": "",
+                "name": "Finishing Blow",
+                "position": "merge 3"
+            }
+        ],
+        "type": "Melee"
     },
     {
         "ascend_max": 8,

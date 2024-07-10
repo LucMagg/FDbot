@@ -30,7 +30,7 @@ def format_hero(hero, heroes, pets, qualities):
 				b_talents[int(position[1])] = t.name
 			elif position[0] == 'ascend':
 				a_talents[int(position[1])] = t.name
-			elif t.position[0] == 'merge':
+			elif position[0] == 'merge':
 				m_talents[int(position[1])] = t.name
 	base_talents = ' | '.join([s for s in b_talents if s])
 	asc_talents = ' | '.join([s for s in a_talents if s])

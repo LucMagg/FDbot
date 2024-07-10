@@ -1,0 +1,55 @@
+[
+  {
+    "spire_id": 1,
+    "start": 1720004401,
+    "end": 1721041200,
+    "climbs" :
+      [
+        { 
+          "climb_id": 1,
+          "start": 1720004401,
+          "end": 1720263600,
+          "scores":
+          [
+            {
+              "player_name": "",
+              "guild": "",
+              "bracket": "",
+              "score": 0,
+              "floors": 0,
+              "loss": 0,
+              "turns": 0,
+              "bonus": 0
+            }
+          ]
+        },
+        { 
+          "climb_id": 2,
+          "start": 1720263601,
+          "end": 1720522800,
+          "scores":
+          [
+
+          ]
+        },
+        { 
+          "climb_id": 3,
+          "start": 1720522801,
+          "end": 1720782000,
+          "scores":
+          [
+
+          ]
+        },
+        { 
+          "climb_id": 4,
+          "start": 1720782001,
+          "end": 1721041200,
+          "scores":
+          [
+
+          ]
+        }
+      ]
+  }
+]

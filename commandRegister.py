@@ -1,9 +1,9 @@
 import requests
 import json
 import time
+import os
+from dotenv import load_dotenv
 
-
-url = "https://discord.com/api/v10/applications/1119731541485035581/commands"
 
 json = [{
         "name": "addcomment",
@@ -129,28 +129,99 @@ json = [{
                      "value": "all"}
                 ]
             }
-            
+        ]
+    },
+    {
+        "name": "spire",
+        "type": 1,
+        "description": "Permet d'envoyer ton score en spire.",
+        "options": [
+            {
+                "name": "screenshot",
+                "description": "Screenshot de ton résultat sur la spire",
+                "type": 11,
+                "required": True
+            },
+            {
+                "name": "guilde",
+                "description": "Ta guilde",
+                "type": 3,
+                "required": True,
+                "choices": [
+                    {"name": "Bordeciel",
+                     "value": "Bordeciel"},
+                    {"name": "Brainless",
+                     "value": "Brainless"},
+                    {"name": "Café noir",
+                     "value": "Café noir"},
+                    {"name": "DragonFR",
+                     "value": "DragonFR"},
+                    {"name": "Échec&Malt",
+                     "value": "Échec&Malt"},
+                    {"name": "[FR]acasse",
+                     "value": "[FR]acasse"},
+                    {"name": "Frenchies",
+                     "value": "Frenchies"},
+                    {"name": "FrenchWar",
+                     "value": "FrenchWar"},
+                    {"name": "[FR]omage",
+                     "value": "[FR]omage"},
+                    {"name": "fr_viking",
+                     "value": "fr_viking"},
+                    {"name": "KaamelottFr",
+                     "value": "KaamelottFr"},
+                    {"name": "Révolte",
+                     "value": "Révolte"},
+                    {"name": "SoleilVertFR",
+                     "value": "SoleilVertFR"},
+                    {"name": "TheGuildHall",
+                     "value": "TheGuildHall"},
+                    {"name": "VeniVidiWipe",
+                     "value": "VeniVidiWipe"}
+                ]
+            },
+            {
+                "name": "spire",
+                "description": "Ton niveau de spire",
+                "type": 3,
+                "required": True,
+                "choices": [
+                    {"name": "Aventurier",
+                     "value": "Adventurer"},
+                    {"name": "Héros",
+                     "value": "Hero"},
+                    {"name": "Bronze",
+                     "value": "Bronze"},
+                    {"name": "Argent",
+                     "value": "Silver"},
+                    {"name": "Or",
+                     "value": "Gold"},
+                    {"name": "Platine",
+                     "value": "Platinum"}
+                ]
+            }
         ]
     }
 ]
     
-    
+load_dotenv()
+url = os.getenv('DISCORD_API_URL')
+bot_key = os.getenv('BOT_KEY')
 
-# For authorization, you can use either your bot token
 headers = {
-    "Authorization": "Bot MTExOTczMTU0MTQ4NTAzNTU4MQ.GK140N.TMCXf29j9p51bl19yhK7ISKjVwXZdO5TZppCAY"
+    "Authorization": "Bot " + bot_key
 }
 
-def post():
-    for command in json:
-        r = requests.post(url, headers=headers, json=command)
-        print(r.text)
-        time.sleep(2)
+#def post():
+for command in json:
+    r = requests.post(url, headers=headers, json=command)
+    print(r.text)
+    time.sleep(2)
 
-#def get():
-r = requests.get(url, headers=headers)
-print(r.text)
+def get():
+    r = requests.get(url, headers=headers)
+    print(r.text)
 
 def delete():
-    r = requests.delete(url + '/1223631277530288200', headers=headers)
+    r = requests.delete(url + '/1258048932404002900', headers=headers)
     print(r.text)
